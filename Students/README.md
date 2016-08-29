@@ -5,6 +5,7 @@ Enrolled Students and Faculty Members
 Undergraduate Students
 ----------------------
 
+* Gregory A Jordan, [slab-bulkhead](https://github.com/slab-bulkhead)
 
 Faculty Members
 ---------------

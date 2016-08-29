@@ -6,7 +6,7 @@ Undergraduate Students
 ----------------------
 
 * Gregory A Jordan, [slab-bulkhead](https://github.com/slab-bulkhead)
-
+* Phillip Cryer, [cryerp](https://github.com/cryerp)
 Faculty Members
 ---------------
 

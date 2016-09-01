@@ -9,6 +9,7 @@ Undergraduate Students
 * Crystal Fisher, [crystalmfisher] (https://github.com/crystalmfisher)
 * Gregory A Jordan, [slab-bulkhead](https://github.com/slab-bulkhead)
 * Samantha Becker, [samanthabecker](https://github.com/samanthabecker)
+* Alan Ngo, [finsnatch](https:/github.com/finsnatch)
 
 
 Faculty Members

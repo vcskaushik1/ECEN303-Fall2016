@@ -29,9 +29,9 @@ Undergraduate Students
 * John Vetus, [jvetus](https://github.com/jvetus)
 * Josh Zschiesche, [JoshZschiesche](https://github.com/JoshZschiesche)
 
-Faculty Members
 
----------------
+Teaching Team
+-------------
 
 * Jean-Francois Chamberland, [chmbrlnd](https://github.com/chmbrlnd)
 * Swanand Kadhe, [kswanand1](https://github.com/Swanand-Kadhe)

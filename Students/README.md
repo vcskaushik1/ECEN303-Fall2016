@@ -12,7 +12,7 @@ Undergraduate Students
 * Alan Ngo, [finsnatch](https:/github.com/finsnatch)
 * John Vetus, [jvetus](https://github.com/jvetus)
 * Samuel Costa, [samjcosta80](https://github/samjcosta80)
-* Samuel Todd Flanagan, [toddflan](https://github/toddflan)
+* Dakota Suckley, [dakotasuckley](https://github/dakotasuckley)
 
 Faculty Members
 ---------------

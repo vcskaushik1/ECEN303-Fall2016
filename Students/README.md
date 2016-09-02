@@ -9,6 +9,7 @@ Undergraduate Students
 * Crystal Fisher, [crystalmfisher] (https://github.com/crystalmfisher)
 * Gregory A Jordan, [slab-bulkhead](https://github.com/slab-bulkhead)
 * Samantha Becker, [samanthabecker](https://github.com/samanthabecker)
+* Simmi Mani, [sma123](https://github.com/sma123)
 * Alan Ngo, [finsnatch](https:/github.com/finsnatch)
 * John Vetus, [jvetus](https://github.com/jvetus)
 * John Osborn, [josbo757](https://github.com/josbo757)

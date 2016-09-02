@@ -7,6 +7,7 @@ Undergraduate Students
 
 * Phillip Cryer, [cryerp](https://github.com/cryerp)
 * Crystal Fisher, [crystalmfisher] (https://github.com/crystalmfisher)
+* Samuel Todd Flanagan, [toddflanagan95](https://github.com/toddflan)
 * Gregory A Jordan, [slab-bulkhead](https://github.com/slab-bulkhead)
 * Samantha Becker, [samanthabecker](https://github.com/samanthabecker)
 * Alan Ngo, [finsnatch](https:/github.com/finsnatch)

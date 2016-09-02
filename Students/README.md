@@ -13,6 +13,7 @@ Undergraduate Students
 * John Vetus, [jvetus](https://github.com/jvetus)
 * Samuel Costa, [samjcosta80](https://github/samjcosta80)
 * Dakota Suckley, [dakotasuckley](https://github/dakotasuckley)
+* Juan J. Lozoya, [jlozoya4](https://github.com/jlozoya4)
 
 Faculty Members
 ---------------

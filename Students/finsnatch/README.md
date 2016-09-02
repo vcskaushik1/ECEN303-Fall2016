@@ -1,5 +1,5 @@
 # Identity 
 
-*Name: Alan Ngo
-*GitHubID: finsnatch
-*NetID: alntamu7
+* Name: Alan Ngo
+* GitHubID: finsnatch
+* NetID: alntamu7

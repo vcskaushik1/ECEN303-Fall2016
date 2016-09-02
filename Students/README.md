@@ -10,6 +10,7 @@ Undergraduate Students
 * Gregory A Jordan, [slab-bulkhead](https://github.com/slab-bulkhead)
 * Samantha Becker, [samanthabecker](https://github.com/samanthabecker)
 * Alan Ngo, [finsnatch](https:/github.com/finsnatch)
+* John Vetus, [jvetus](https://github.com/jvetus)
 
 
 Faculty Members

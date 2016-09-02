@@ -15,6 +15,7 @@ Undergraduate Students
 * Dakota Suckley, [dakotasuckley](https://github/dakotasuckley)
 * Juan J. Lozoya, [jlozoya4](https://github.com/jlozoya4)
 * Ross Bodeker, [rossbodeker](https://github.com/rossbodeker)
+* Melanie Enriquez, [smilingmelanie](https://github.com/smilingmelanie)
 
 Faculty Members
 ---------------

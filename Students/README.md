@@ -23,6 +23,7 @@ Undergraduate Students
 * Rigoberto Rodriguez, [rigorodriguez95] (https://github.com/rigorodriguez95)
 * Rebecca Sontheimer, [sont89](https://github.com/sont89)
 * Lucky Jay Barut, [LJBar](https://github.com/LJBar)
+* Raj Chockalingam, [rajchocolate](https://github.com/rajchocolate)
 
 Faculty Members
 

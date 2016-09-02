@@ -21,9 +21,8 @@ Undergraduate Students
 * Rolando Gamboa, [rolando16](https://github.com/rolandog16)
 * Andrea Urueta, [andreamu17](https://github.com/andreamu17)
 * Rigoberto Rodriguez, [rigorodriguez95] (https://github.com/rigorodriguez95)
+* Trevor Spohrer, [tspohrer](https://github.com/tspohrer)
 * Rebecca Sontheimer, [sont89](https://github.com/sont89)
-* Lucky Jay Barut, [LJBar](https://github.com/LJBar)
-* Jacob Geller, [cobygeller](https://github.com/cobygeller)
 
 Faculty Members
 

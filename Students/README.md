@@ -20,11 +20,12 @@ Undergraduate Students
 * Rolando Gamboa, [rolando16](https://github.com/rolandog16)
 * Andrea Urueta, [andreamu17](https://github.com/andreamu17)
 * Rigoberto Rodriguez, [rigorodriguez95] (https://github.com/rigorodriguez95)
-* 
+* Rebecca Sontheimer, [sont89](https://github.com/sont89)
+
 Faculty Members
+
 ---------------
 
 * Jean-Francois Chamberland, [chmbrlnd](https://github.com/chmbrlnd)
 * Swanand Kadhe, [kswanand1](https://github.com/Swanand-Kadhe)
 * Austin Taghavi, [ataghavi](https://github.com/ATaghavi)
-

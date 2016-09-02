@@ -11,8 +11,10 @@ Undergraduate Students
 * Samantha Becker, [samanthabecker](https://github.com/samanthabecker)
 * Alan Ngo, [finsnatch](https:/github.com/finsnatch)
 * John Vetus, [jvetus](https://github.com/jvetus)
+* John Osborn, [josbo757](https://github.com/josbo757)
 * Samuel Costa, [samjcosta80](https://github/samjcosta80)
 * Dakota Suckley, [dakotasuckley](https://github/dakotasuckley)
+* Dustin Martin, [dustinwm1](https://github/dustinmartin)
 * Juan J. Lozoya, [jlozoya4](https://github.com/jlozoya4)
 * Ross Bodeker, [rossbodeker](https://github.com/rossbodeker)
 * Melanie Enriquez, [smilingmelanie](https://github.com/smilingmelanie)
@@ -21,6 +23,9 @@ Undergraduate Students
 * Andrea Urueta, [andreamu17](https://github.com/andreamu17)
 * Rigoberto Rodriguez, [rigorodriguez95] (https://github.com/rigorodriguez95)
 * Rebecca Sontheimer, [sont89](https://github.com/sont89)
+* Lucky Jay Barut, [LJBar](https://github.com/LJBar)
+* Jacob Geller, [cobygeller](https://github.com/cobygeller)
+* Raj Chockalingam, [rajchocolate](https://github.com/rajchocolate)
 
 Faculty Members
 

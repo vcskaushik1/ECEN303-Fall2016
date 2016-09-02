@@ -7,7 +7,6 @@ Undergraduate Students
 
 * Phillip Cryer, [cryerp](https://github.com/cryerp)
 * Crystal Fisher, [crystalmfisher] (https://github.com/crystalmfisher)
-* Samuel Todd Flanagan, [toddflanagan95](https://github.com/toddflan)
 * Gregory A Jordan, [slab-bulkhead](https://github.com/slab-bulkhead)
 * Samantha Becker, [samanthabecker](https://github.com/samanthabecker)
 * Alan Ngo, [finsnatch](https:/github.com/finsnatch)
@@ -24,7 +23,7 @@ Undergraduate Students
 * Rigoberto Rodriguez, [rigorodriguez95] (https://github.com/rigorodriguez95)
 * Rebecca Sontheimer, [sont89](https://github.com/sont89)
 * Lucky Jay Barut, [LJBar](https://github.com/LJBar)
-* Raj Chockalingam, [rajchocolate](https://github.com/rajchocolate)
+* Jacob Geller, [cobygeller](https://github.com/cobygeller)
 
 Faculty Members
 

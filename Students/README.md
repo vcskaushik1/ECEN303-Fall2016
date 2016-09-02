@@ -26,6 +26,7 @@ Undergraduate Students
 * Lucky Jay Barut, [LJBar](https://github.com/LJBar)
 * Jacob Geller, [cobygeller](https://github.com/cobygeller)
 * Raj Chockalingam, [rajchocolate](https://github.com/rajchocolate)
+* Josh Zschiesche, [JoshZschiesche](https://github.com/JoshZschiesche)
 
 Faculty Members
 

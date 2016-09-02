@@ -25,6 +25,7 @@ Undergraduate Students
 * Rebecca Sontheimer, [sont89](https://github.com/sont89)
 * Lucky Jay Barut, [LJBar](https://github.com/LJBar)
 * Jacob Geller, [cobygeller](https://github.com/cobygeller)
+* Raj Chockalingam, [rajchocolate](https://github.com/rajchocolate)
 
 Faculty Members
 

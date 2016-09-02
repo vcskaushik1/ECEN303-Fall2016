@@ -12,6 +12,7 @@ Undergraduate Students
 * Alan Ngo, [finsnatch](https:/github.com/finsnatch)
 * John Vetus, [jvetus](https://github.com/jvetus)
 * Samuel Costa, [samjcosta80](https://github/samjcosta80)
+* Stefan J Manoharan, [stefjabez](https://github/stefjabez)
 
 Faculty Members
 ---------------

@@ -19,7 +19,8 @@ Undergraduate Students
 * Lorenzo Oviedo, [lto458](https://github.com/lto458)
 * Rolando Gamboa, [rolando16](https://github.com/rolandog16)
 * Andrea Urueta, [andreamu17](https://github.com/andreamu17)
-
+* Rigoberto Rodriguez, [rigorodriguez95] (https://github.com/rigorodriguez95)
+* 
 Faculty Members
 ---------------
 

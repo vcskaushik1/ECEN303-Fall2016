@@ -11,7 +11,7 @@ Undergraduate Students
 * Samantha Becker, [samanthabecker](https://github.com/samanthabecker)
 * Alan Ngo, [finsnatch](https:/github.com/finsnatch)
 * John Vetus, [jvetus](https://github.com/jvetus)
-
+* Samuel Costa, [samjcosta80](https://github/samjcosta80)
 
 Faculty Members
 ---------------

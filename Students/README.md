@@ -24,6 +24,7 @@ Undergraduate Students
 * John Osborn, [josbo757](https://github.com/josbo757)
 * Lorenzo Oviedo, [lto458](https://github.com/lto458)
 * Rigoberto Rodriguez, [rigorodriguez95] (https://github.com/rigorodriguez95)
+* Marlyn Rosales, [marlyn95] (https://github.com/marlyn95) 
 * Rebecca Sontheimer, [sont89](https://github.com/sont89)
 * Dakota Suckley, [dakotasuckley](https://github/dakotasuckley)
 * Andrea Urueta, [andreamu17](https://github.com/andreamu17)

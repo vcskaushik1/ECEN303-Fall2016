@@ -8,6 +8,7 @@ Undergraduate Students
 * Lucky Jay Barut, [LJBar](https://github.com/LJBar)
 * Samantha Becker, [samanthabecker](https://github.com/samanthabecker)
 * Ross Bodeker, [rossbodeker](https://github.com/rossbodeker)
+* Ryan Campbell, [cafeclimber](https://github.com/cafeclimber)
 * Raj Chockalingam, [rajchocolate](https://github.com/rajchocolate)
 * Samuel Costa, [samjcosta80](https://github/samjcosta80)
 * Phillip Cryer, [cryerp](https://github.com/cryerp)

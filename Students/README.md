@@ -29,6 +29,7 @@ Undergraduate Students
 * Andrea Urueta, [andreamu17](https://github.com/andreamu17)
 * John Vetus, [jvetus](https://github.com/jvetus)
 * Josh Zschiesche, [JoshZschiesche](https://github.com/JoshZschiesche)
+* Sergio Pineda, [sebastianpineda](https://github.com/sebastianpineda)
 
 
 Teaching Team

@@ -32,7 +32,7 @@ Undergraduate Students
 * John Vetus, [jvetus](https://github.com/jvetus)
 * Josh Zschiesche, [JoshZschiesche](https://github.com/JoshZschiesche)
 * Sergio Pineda, [sebastianpineda](https://github.com/sebastianpineda)
-
+* Malik Aldabbagh, [alda836](https://github.com/alda836)
 
 Teaching Team
 -------------

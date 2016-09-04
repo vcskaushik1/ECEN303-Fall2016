@@ -1,5 +1,5 @@
 # Identity
 
-* Name: <Marlyn Rosales>
-* GitHubID: <marlyn95>
-* NetID: <marlyn95>
+* Name: Marlyn Rosales
+* GitHubID: marlyn95
+* NetID: marlyn95

@@ -14,6 +14,7 @@ Undergraduate Students
 * Phillip Cryer, [cryerp](https://github.com/cryerp)
 * Melanie Enriquez, [smilingmelanie](https://github.com/smilingmelanie)
 * Crystal Fisher, [crystalmfisher] (https://github.com/crystalmfisher)
+* Samuel Todd Flanagan, [toddflanagan95](https://github.com/toddflan)
 * Rolando Gamboa, [rolando16](https://github.com/rolandog16)
 * Jacob Geller, [cobygeller](https://github.com/cobygeller)
 * Gregory A Jordan, [slab-bulkhead](https://github.com/slab-bulkhead)

@@ -33,6 +33,7 @@ Undergraduate Students
 * Josh Zschiesche, [JoshZschiesche](https://github.com/JoshZschiesche)
 * Sergio Pineda, [sebastianpineda](https://github.com/sebastianpineda)
 * Malik Aldabbagh, [alda836](https://github.com/alda836)
+* Christopher Galik, [Chrisgalik](https://github.com/Chrisgalik)
 
 Teaching Team
 -------------

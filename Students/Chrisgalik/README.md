@@ -1,5 +1,5 @@
 # Identity
 
-*Name: Christopher Galik
-*GitHubID: Chrisgalik
-*NetID: chrisgalik
+* Name: Christopher Galik
+* GitHubID: Chrisgalik
+* NetID: chrisgalik

@@ -35,6 +35,7 @@ Undergraduate Students
 * Sergio Pineda, [sebastianpineda](https://github.com/sebastianpineda)
 * Malik Aldabbagh, [alda836](https://github.com/alda836)
 * Christopher Galik, [Chrisgalik](https://github.com/Chrisgalik)
+* Aaron Ingram, [aaronaingram](https://github.com/aaronaingram)
 
 Teaching Team
 -------------

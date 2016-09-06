@@ -19,6 +19,7 @@ Undergraduate Students
 * Jacob Geller, [cobygeller](https://github.com/cobygeller)
 * Gregory A Jordan, [slab-bulkhead](https://github.com/slab-bulkhead)
 * Juan J. Lozoya, [jlozoya4](https://github.com/jlozoya4)
+* Julio Resendez Jr, [resendezjulio](https://github.com/resendezjulio)
 * Simmi Mani, [sma123](https://github.com/sma123)
 * Dustin Martin, [dustinwm1](https://github/dustinmartin)
 * Alan Ngo, [finsnatch](https:/github.com/finsnatch)

@@ -28,7 +28,7 @@ Undergraduate Students
 * Marlyn Rosales, [marlyn95] (https://github.com/marlyn95) 
 * Rebecca Sontheimer, [sont89](https://github.com/sont89)
 * Dakota Suckley, [dakotasuckley](https://github/dakotasuckley)
-* Josh Thompson, [josht6](https://github/josht6)
+* Josh Thompson, [josht6](https://github.com/josht6)
 * Andrea Urueta, [andreamu17](https://github.com/andreamu17)
 * John Vetus, [jvetus](https://github.com/jvetus)
 * Josh Zschiesche, [JoshZschiesche](https://github.com/JoshZschiesche)

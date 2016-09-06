@@ -1,5 +1,5 @@
 # Identity
 
-* Name: <Rajiv Chockalingam>
-* GitHubID: <rajchocolate>
-* NetID: <rcwiz1296>
+* Name: Rajiv Chockalingam
+* GitHubID: rajchocolate
+* NetID: rcwiz1296

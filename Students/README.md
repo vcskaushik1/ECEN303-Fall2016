@@ -37,6 +37,7 @@ Undergraduate Students
 * Malik Aldabbagh, [alda836](https://github.com/alda836)
 * Christopher Galik, [Chrisgalik](https://github.com/Chrisgalik)
 * Aaron Ingram, [aaronaingram](https://github.com/aaronaingram)
+* Jacob Vasquez, [vasq10975](http://github.com/vasq10975)
 
 Teaching Team
 -------------

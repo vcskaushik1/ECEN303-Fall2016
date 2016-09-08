@@ -39,6 +39,7 @@ Undergraduate Students
 * Aaron Ingram, [aaronaingram](https://github.com/aaronaingram)
 * Jacob Vasquez, [vasq10975](https://github.com/vasq10975)
 * Nicholas York, [nyork2](https://github.com/nyork2)
+* Dillon Johnson, [dillonjohnson48](https://github.com/dillonjohnson48)
 
 Teaching Team
 -------------

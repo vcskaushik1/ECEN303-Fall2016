@@ -1,5 +1,6 @@
-#Identity
-Name: samantha becker
-GitHubID: samanthabecker
-NetID: 224001853
+# Identity
+
+* Name: samantha becker
+* GitHubID: samanthabecker
+* NetID: samanthabecker
 

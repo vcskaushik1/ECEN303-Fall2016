@@ -31,13 +31,17 @@ Undergraduate Students
 * Dakota Suckley, [dakotasuckley](https://github/dakotasuckley)
 * Josh Thompson, [josht6](https://github.com/josht6)
 * Andrea Urueta, [andreamu17](https://github.com/andreamu17)
+* Michael Walker, [mgwalker95](https://github.com/mgwalker95)
 * John Vetus, [jvetus](https://github.com/jvetus)
 * Josh Zschiesche, [JoshZschiesche](https://github.com/JoshZschiesche)
 * Sergio Pineda, [sebastianpineda](https://github.com/sebastianpineda)
 * Malik Aldabbagh, [alda836](https://github.com/alda836)
 * Christopher Galik, [Chrisgalik](https://github.com/Chrisgalik)
 * Aaron Ingram, [aaronaingram](https://github.com/aaronaingram)
-* Jacob Vasquez, [vasq10975](http://github.com/vasq10975)
+* Jacob Vasquez, [vasq10975](https://github.com/vasq10975)
+* Nicholas York, [nyork2](https://github.com/nyork2)
+* Dillon Johnson, [dillonjohnson48](https://github.com/dillonjohnson48)
+* Rami Mooti, [RamiMooti](https://github.com/RamiMooti)
 
 Teaching Team
 -------------

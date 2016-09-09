@@ -50,7 +50,7 @@ Undergraduate Students
 * Jacob Vasquez, [vasq10975](https://github.com/vasq10975)
 * John Vetus, [jvetus](https://github.com/jvetus)
 * Michael Walker, [mgwalker95](https://github.com/mgwalker95)
-* Jovian Wysocki
+* Jovian Wysocki, [jovianwysocki](https://github.com/jovianwysocki)
 * Seungwon Yoon
 * Nicholas York, [nyork2](https://github.com/nyork2)
 * Austin Young

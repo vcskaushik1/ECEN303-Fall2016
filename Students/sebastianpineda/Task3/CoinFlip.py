@@ -11,4 +11,3 @@ EmpiricalDistribution = []
 for OutcomeIndex in range(0, Cardinality):
     EmpiricalDistribution.append(TrialSequence.count(OutcomeIndex) / float(NumberTrials))
 print EmpiricalDistribution
-1

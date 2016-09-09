@@ -31,6 +31,7 @@ Undergraduate Students
 * Dakota Suckley, [dakotasuckley](https://github/dakotasuckley)
 * Josh Thompson, [josht6](https://github.com/josht6)
 * Andrea Urueta, [andreamu17](https://github.com/andreamu17)
+* Michael Walker, [mgwalker95](https://github.com/mgwalker95)
 * John Vetus, [jvetus](https://github.com/jvetus)
 * Josh Zschiesche, [JoshZschiesche](https://github.com/JoshZschiesche)
 * Sergio Pineda, [sebastianpineda](https://github.com/sebastianpineda)

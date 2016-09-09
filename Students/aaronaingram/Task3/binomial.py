@@ -1,16 +1,17 @@
 import random
 
-Cardinality = 2
 NumberTrials = 100
-p = 0.5
+p = .23
+n=15
 
 TrialSequence = []
 for TrialIndex in range(0, NumberTrials):
-
-    if random.random() < p:
-        TrialSequence.append(1)
-    else:
-        TrialSequence.append(0)
+    count = 0
+	for 1 in range(n):
+		if random.random()<p:
+			count+=1
+	TrialSequence.append(count)
+		
 
 EmpiricalDistribution = []
 for OutcomeIndex in range(0, Cardinality):

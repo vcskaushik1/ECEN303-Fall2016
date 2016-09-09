@@ -1,51 +1,26 @@
 import random
-import math
 
-p = float(input('Enter a value for p: '))
-n = int(input('Enter a value for n: '))
+p = float(input('Enter a value for p (probability of success): '))
+n = int(input('Enter a value for n (number of trials): '))
 
-Cardinality = 10
-NumberTrials = 100
-suc_range = int(p * Cardinality)
+Cardinality = 2
+NumberTrials = 1000
 
-Binomialpmf = [1.0] * n
-Success = []
-Failure = []
+TrialSequence = []
 
+for TrialIndex in range(0, NumberTrials):
+    cnt = 0
 
-#print(Binomialpmf)
+    for index in range(0, n):
+        if (random.random() < p):
+            cnt = cnt + 1
 
-for num in range(0, n):
+    TrialSequence.append(cnt)
 
-    TrialSequence = []
-    for TrialIndex in range(0, NumberTrials):
-        TrialSequence.append(random.randrange(Cardinality))
+BinomialDist = []
 
-    tempSum = 0
+for OutcomeIndex in range(0, n+1):
+    BinomialDist.append(TrialSequence.count(OutcomeIndex) / float(NumberTrials))
 
-    for OutcomeIndex in range(0, suc_range):
-        tempSum = tempSum + TrialSequence.count(OutcomeIndex)
-
-    Success.append(tempSum/NumberTrials)
-
-    tempSum = 0
-
-    for OutcomeIndex in range(suc_range, Cardinality):
-        tempSum = tempSum + TrialSequence.count(OutcomeIndex)
-
-    Failure.append(tempSum/NumberTrials)
-
-for value in range(0, n):
-    k = n - value
-
-    Binomialpmf[value] = Binomialpmf[value] * ( math.factorial(n)/( math.factorial(k) * math.factorial(n-k) ) )
-
-    for index in range(0, value):
-        Binomialpmf[value] = Binomialpmf[value] * Success[index]
-    for i in range(0, k):
-        Binomialpmf[value] = Binomialpmf[value] * Failure[i]
-
-#print(Success)
-#print(Failure)
-
-print(Binomialpmf)
+print("Format: [All Tails, ... , All Heads]")
+print(BinomialDist)

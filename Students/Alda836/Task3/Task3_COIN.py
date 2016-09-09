@@ -11,3 +11,11 @@ EmpiricalDistribution = []
 for OutcomeIndex in range(0, Cardinality):
     EmpiricalDistribution.append(TrialSequence.count(OutcomeIndex) / float(NumberTrials))
 print (EmpiricalDistribution)
+
+if(EmpiricalDistribution==0):
+    {
+        print ("Heads!")
+            }
+else:
+    print ("Tails!")
+

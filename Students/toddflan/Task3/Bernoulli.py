@@ -1,49 +1,21 @@
 import random
 
-p = input('Enter a value for p: ')
-p = float(p)
+p = float(input('Enter a value for p (probability of success): '))
 
-#p = 0.7
-
-Cardinality = 10
+Cardinality = 2
 NumberTrials = 100
-suc_range = int(p * Cardinality)
-tempSum = 0
-
-#print(p)
-#print(Cardinality)
-#print(suc_range)
 
 TrialSequence = []
 for TrialIndex in range(0, NumberTrials):
-    TrialSequence.append(random.randrange(Cardinality))
-
-
-
-
-#print(TrialSequence)
-
-#EmpiricalDistribution = []
-#for OutcomeIndex in range(0, Cardinality):
-#    EmpiricalDistribution.append(TrialSequence.count(OutcomeIndex))
+    if (random.random() < p):
+        TrialSequence.append(0)
+    else:
+        TrialSequence.append(1)
 
 BernoulliDist = []
 
-for OutcomeIndex in range(0, suc_range):
-    tempSum = tempSum + TrialSequence.count(OutcomeIndex)
+for OutcomeIndex in range(0, Cardinality):
+    BernoulliDist.append(TrialSequence.count(OutcomeIndex) / float(NumberTrials))
 
-BernoulliDist.append(tempSum/NumberTrials)
-tempSum = 0
-
-for OutcomeIndex in range(suc_range, Cardinality):
-    tempSum = tempSum + TrialSequence.count(OutcomeIndex)
-
-BernoulliDist.append(tempSum/NumberTrials)
-
-#print(EmpiricalDistribution)
+print("Format: [Success, Failure]")
 print(BernoulliDist)
-
-
-
-#print(EmpiricalDistribution)
-#print(BernoulliDist)

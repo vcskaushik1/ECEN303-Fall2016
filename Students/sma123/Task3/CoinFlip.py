@@ -1,3 +1,7 @@
+#Simmi Mani
+#ECEN 303 502
+#Name: CoinFlip.py
+
 import random
 
 Cardinality = 2
@@ -9,5 +13,5 @@ for TrialIndex in range(0, NumberTrials):
 
 EmpiricalDistribution = []
 for OutcomeIndex in range(0, Cardinality):
-    EmpiricalDistribution.append(TrialSequence.count(OutcomeIndex) / float(NumberTrials))
-print (EmpiricalDistribution)
+    EmpiricalDistribution.append(TrialSequence.count(OutcomeIndex) / float(NumberTrials)) #count: how many elements in list = to outcome index
+print EmpiricalDistribution

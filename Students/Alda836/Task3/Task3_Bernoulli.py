@@ -1,13 +1,17 @@
 import random
 
-Cardinality = 2
+Cardinality  = 2
 NumberTrials = 100
-
+P= 0.70 # chance of getting a passing grade in course
 TrialSequence = []
 for TrialIndex in range(0, NumberTrials):
-    TrialSequence.append(random.randrange(Cardinality))
+    if random.random() < P:
+        TrialSequence.append(1)
+    else:
+        TrialSequence.append(0)
 
 EmpiricalDistribution = []
 for OutcomeIndex in range(0, Cardinality):
     EmpiricalDistribution.append(TrialSequence.count(OutcomeIndex) / float(NumberTrials))
 print (EmpiricalDistribution)
+

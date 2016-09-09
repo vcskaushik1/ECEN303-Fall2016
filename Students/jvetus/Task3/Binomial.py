@@ -2,7 +2,7 @@ import random
 
 n = 6
 p = 0.3
-NumberTrials = 300000
+NumberTrials = 1000
 
 nSequence = []
 

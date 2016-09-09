@@ -1,5 +1,5 @@
 # Identity
 
-* Name: <Trevor Spohrer>
-* GitHubID: <tspohrer>
-* NetID: <tspohrer>
+* Name: Trevor Spohrer
+* GitHubID: tspohrer
+* NetID: tspohrer

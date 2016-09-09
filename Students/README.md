@@ -6,6 +6,7 @@ Undergraduate Students
 ----------------------
 
 * Malik Aldabbagh, [alda836](https://github.com/alda836)
+* John Alegria
 * Lucky Jay Barut, [LJBar](https://github.com/LJBar)
 * Samantha Becker, [samanthabecker](https://github.com/samanthabecker)
 * Ross Bodeker, [rossbodeker](https://github.com/rossbodeker)
@@ -20,29 +21,41 @@ Undergraduate Students
 * Christopher Galik, [Chrisgalik](https://github.com/Chrisgalik)
 * Rolando Gamboa, [rolando16](https://github.com/rolandog16)
 * Jacob Geller, [cobygeller](https://github.com/cobygeller)
+* Juan Gomez
 * Aaron Ingram, [aaronaingram](https://github.com/aaronaingram)
 * Dillon Johnson, [dillonjohnson48](https://github.com/dillonjohnson48)
 * Gregory A Jordan, [slab-bulkhead](https://github.com/slab-bulkhead)
+* Andrew Knowlton
 * Juan J. Lozoya, [jlozoya4](https://github.com/jlozoya4)
-* Julio Resendez Jr, [resendezjulio](https://github.com/resendezjulio)
 * Simmi Mani, [sma123](https://github.com/sma123)
 * Stefan J. Manoharan, [stefjabez](https://github.com/stefjabez)
 * Dustin Martin, [dustinwm1](https://github/dustinmartin)
 * Rami Mooti, [RamiMooti](https://github.com/RamiMooti)
+* Caitlyn Morrison
 * Alan Ngo, [finsnatch](https:/github.com/finsnatch)
+* Abu Nowshad
+* Jesus Orocio
 * John Osborn, [josbo757](https://github.com/josbo757)
 * Lorenzo Oviedo, [lto458](https://github.com/lto458)
 * Sergio Pineda, [sebastianpineda](https://github.com/sebastianpineda)
+* Julio Resendez Jr, [resendezjulio](https://github.com/resendezjulio)
+* Estival Rivera
 * Rigoberto Rodriguez, [rigorodriguez95](https://github.com/rigorodriguez95)
+* Rafael Seroussi
 * Rebecca Sontheimer, [sont89](https://github.com/sont89)
+* Trevor Spohrer
 * Dakota Suckley, [dakotasuckley](https://github/dakotasuckley)
 * Josh Thompson, [josht6](https://github.com/josht6)
 * Andrea Urueta, [andreamu17](https://github.com/andreamu17)
 * Jacob Vasquez, [vasq10975](https://github.com/vasq10975)
 * John Vetus, [jvetus](https://github.com/jvetus)
 * Michael Walker, [mgwalker95](https://github.com/mgwalker95)
+* Jovian Wysocki
+* Seungwon Yoon
 * Nicholas York, [nyork2](https://github.com/nyork2)
+* Austin Young
 * Josh Zschiesche, [JoshZschiesche](https://github.com/JoshZschiesche)
+
 
 Teaching Team
 -------------

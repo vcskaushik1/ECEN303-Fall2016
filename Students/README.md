@@ -21,6 +21,7 @@ Undergraduate Students
 * Juan J. Lozoya, [jlozoya4](https://github.com/jlozoya4)
 * Julio Resendez Jr, [resendezjulio](https://github.com/resendezjulio)
 * Simmi Mani, [sma123](https://github.com/sma123)
+* Stefan J. Manoharan, [stefjabez](https://github.com/stefjabez)
 * Dustin Martin, [dustinwm1](https://github/dustinmartin)
 * Alan Ngo, [finsnatch](https:/github.com/finsnatch)
 * John Osborn, [josbo757](https://github.com/josbo757)

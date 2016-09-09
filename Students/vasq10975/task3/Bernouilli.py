@@ -1,8 +1,8 @@
-# bernouli
 import random
+
 Cardinality = 2
-p = 0.85
 NumberTrials = 100
+p = 0.85
 
 TrialSequence = []
 for TrialIndex in range(0, NumberTrials):
@@ -10,8 +10,8 @@ for TrialIndex in range(0, NumberTrials):
         TrialSequence.append(1)
     else:
         TrialSequence.append(0)
-EmpiricalDistribution = []
-for OutcomeIndex in range(0, Cardinality):
-    EmpiricalDistribution.append(TrialSequence.count(OutcomeIndex) / float(NumberTrials))
-print (EmpiricalDistribution)
 
+EmpiricalDistribution = []
+for OutcomeIndex in range(0, Cardinality): #loops thru all the outcomes
+    EmpiricalDistribution.append(TrialSequence.count(OutcomeIndex) / float(NumberTrials)) #count counts the numbers of 0's
+print (EmpiricalDistribution)

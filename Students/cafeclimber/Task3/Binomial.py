@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/python3
 import random
 
 NumberTrials = 1000
@@ -8,13 +8,13 @@ p = 0.85
 TrialSequence = []
 for TrialIndex in range(0, NumberTrials):
     count = 0
-    if random.random() < p:
-        count += 1
-        TrialSequence.append(count)
+    for x in range(n):
+        if random.random() < p:
+            count += 1
+            TrialSequence.append(count)
 
-"""This need s to be fixed later"""
 EmpiricalDistribution = []
-for OutcomeIndex in range(0, n):
-    EmpiricalDistribution.append(TrialSequence.count(OutcomeIndex) / float(NumberTrials))
+for OutcomeIndex in range(0, NumberTrials):
+    EmpiricalDistribution.append(TrialSequence[OutcomeIndex] / float(NumberTrials))
 
 print(EmpiricalDistribution)

@@ -41,7 +41,7 @@ Undergraduate Students
 * Julio Resendez Jr, [resendezjulio](https://github.com/resendezjulio)
 * Estival Rivera
 * Rigoberto Rodriguez, [rigorodriguez95](https://github.com/rigorodriguez95)
-* Rafael Seroussi
+* Rafael Seroussi, [rseroussi1596](https://github.com/rseroussi1596)
 * Rebecca Sontheimer, [sont89](https://github.com/sont89)
 * Trevor Spohrer, [tspohrer](https://github.com/tspohrer)
 * Dakota Suckley, [dakotasuckley](https://github/dakotasuckley)

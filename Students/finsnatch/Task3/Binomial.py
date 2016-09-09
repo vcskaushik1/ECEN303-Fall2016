@@ -1,20 +1,20 @@
-#!/usr/bin/python3
 import random
 
-NumberTrials = 1000
-n = 10
-p = 0.85
+Cardinality = 2
+NumberTrials = 100
+p=0.85
+n=10
+EmpiricalDistribution = []
 
 TrialSequence = []
 for TrialIndex in range(0, NumberTrials):
-    count = 0
+    cnt=0
     for x in range(n):
-        if random.random() < p:
-            count += 1
-            TrialSequence.append(count)
+        temp = random.random()
+        if temp < p:
+            cnt += 1
+    TrialSequence.append(cnt)
 
-EmpiricalDistribution = []
 for OutcomeIndex in range(0, NumberTrials):
     EmpiricalDistribution.append(TrialSequence[OutcomeIndex] / float(NumberTrials))
-
-print(EmpiricalDistribution)
+print EmpiricalDistribution

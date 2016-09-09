@@ -10,7 +10,7 @@ for TrialIndex in range(0, NumberTrials):
 	cnt = 0
 	for i in rang(n):	
 		if random.random() < p:
-			cnt++1
+			cnt+=1
 		TrialSequence.append(1)
 
 EmpiricalDistribution = []

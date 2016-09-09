@@ -43,7 +43,7 @@ Undergraduate Students
 * Rigoberto Rodriguez, [rigorodriguez95](https://github.com/rigorodriguez95)
 * Rafael Seroussi
 * Rebecca Sontheimer, [sont89](https://github.com/sont89)
-* Trevor Spohrer
+* Trevor Spohrer, [tspohrer](https://github.com/tspohrer)
 * Dakota Suckley, [dakotasuckley](https://github/dakotasuckley)
 * Josh Thompson, [josht6](https://github.com/josht6)
 * Andrea Urueta, [andreamu17](https://github.com/andreamu17)

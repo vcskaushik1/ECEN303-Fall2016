@@ -1,7 +1,7 @@
 import random
 
 Cardinality = 2
-NumberTrials = 300000
+NumberTrials = 100
 
 TrialSequence = []
 for TrialIndex in range(0, NumberTrials):

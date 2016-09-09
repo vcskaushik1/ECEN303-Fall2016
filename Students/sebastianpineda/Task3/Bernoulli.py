@@ -9,10 +9,10 @@ p = 0.25
 TrialSequence = []
 for TrialIndex in range(0, NumberTrials):
 	r = random.random()
-	if r <+ p:
-		    TrialSequence.append(1)
+	if r <= p:
+		TrialSequence.append(1)
 	else:
-		    TrialSequence.append(0)
+		TrialSequence.append(0)
 
 EmpiricalDistribution = []
 for OutcomeIndex in range(0, Cardinality):

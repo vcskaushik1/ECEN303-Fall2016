@@ -25,7 +25,7 @@ Undergraduate Students
 * Aaron Ingram, [aaronaingram](https://github.com/aaronaingram)
 * Dillon Johnson, [dillonjohnson48](https://github.com/dillonjohnson48)
 * Gregory A Jordan, [slab-bulkhead](https://github.com/slab-bulkhead)
-* Andrew Knowlton
+* Andrew Knowlton [andyknowlton] (https://github.com/andyknowlton)
 * Juan J. Lozoya, [jlozoya4](https://github.com/jlozoya4)
 * Simmi Mani, [sma123](https://github.com/sma123)
 * Stefan J. Manoharan, [stefjabez](https://github.com/stefjabez)

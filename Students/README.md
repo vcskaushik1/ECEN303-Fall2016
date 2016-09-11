@@ -31,7 +31,7 @@ Undergraduate Students
 * Stefan J. Manoharan, [stefjabez](https://github.com/stefjabez)
 * Dustin Martin, [dustinwm1](https://github/dustinmartin)
 * Rami Mooti, [RamiMooti](https://github.com/RamiMooti)
-* Caitlyn Morrison
+* Caitlyn Morrison, [Ranissa](https://github.com/Ranissa)
 * Alan Ngo, [finsnatch](https:/github.com/finsnatch)
 * Abu Nowshad
 * Jesus Orocio

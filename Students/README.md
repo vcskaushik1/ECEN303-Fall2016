@@ -34,7 +34,7 @@ Undergraduate Students
 * Caitlyn Morrison, [Ranissa](https://github.com/Ranissa)
 * Alan Ngo, [finsnatch](https:/github.com/finsnatch)
 * Abu Nowshad
-* Jesus Orocio
+* Jesus Orocio[orojes95](https://github.com/orojes95)
 * John Osborn, [josbo757](https://github.com/josbo757)
 * Lorenzo Oviedo, [lto458](https://github.com/lto458)
 * Sergio Pineda, [sebastianpineda](https://github.com/sebastianpineda)

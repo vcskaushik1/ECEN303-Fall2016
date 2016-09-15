@@ -38,10 +38,14 @@ print repr(Distribution)
 #
 ```
 
-Address the following two problems.
+Address the following three problems.
 
 1. Describe what happens to the figure as you vary `ParameterP` from zero to one.
-2. What is the most likely outcome for `ParameterP = 0.7` and `NumberFlips = 8`?
+2. What is the sum of the elements in Distribution? 
+3. What is the most likely outcome for `ParameterP = 0.7` and `NumberFlips = 8`?
+
+Place your answers for 2 and 3 in the appropriate variables at the top of the file. The answers should simply be a number. 
+
 
 
 ## Submission

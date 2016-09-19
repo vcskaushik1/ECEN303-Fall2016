@@ -4,7 +4,7 @@ __GitHubID__ = "cafeclimber"
 __SelfGrade__ = "5"
 __Challenge__ = "1"
 __Answer1__ = "1.00000"
-__Answer2__ = "Most likely outcome is heads (1)"
+__Answer2__ = "6"
 
 """
 Random Signals and Systems

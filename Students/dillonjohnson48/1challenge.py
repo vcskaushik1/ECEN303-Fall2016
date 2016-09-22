@@ -74,12 +74,10 @@ plt.show()
 
 """
 Describe what happens to the figure as you vary ParameterP from zero to one.
-<<<<<<< HEAD
 What is the sum of the elements in Distribtion?
 Place your answer in the __Answer1__ variable at the top of this file.
 What is the most likely outcome for ParameterP = 0.7 and NumberFlips = 8?
 Place your answer in the __Answer2__ variable at the top of this file.
-=======
 
 What is the sum of the elements in Distribtion?
 Place your answer in the __Answer1__ variable at the top of this file.
@@ -87,6 +85,4 @@ Place your answer in the __Answer1__ variable at the top of this file.
 What is the most likely outcome for ParameterP = 0.7 and NumberFlips = 8?
 Place your answer in the __Answer2__ variable at the top of this file.
 
-
->>>>>>> c4f74ea0b0cbf4103691c0f735b9b090503cd740
 """

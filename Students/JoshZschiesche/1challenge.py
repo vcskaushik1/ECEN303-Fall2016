@@ -1,10 +1,10 @@
-__author__ = ""
-__NetID__ = ""
-__GitHubID__ = ""
-__SelfGrade__ = ""
+__author__ = "Josh Zschiesche"
+__NetID__ = "Jzschiesche1"
+__GitHubID__ = "JoshZschiesche"
+__SelfGrade__ = "5"
 __Challenge__ = "1"
-__Answer1__ = ""
-__Answer2__ = ""
+__Answer1__ = "1"
+__Answer2__ = "6"
 
 """
 Random Signals and Systems
@@ -17,18 +17,17 @@ import math
 import matplotlib.pyplot as plt
 
 
-ParameterP = 0.3
+ParameterP = 0.7
 NumberFlips = 8
 NumberTrials = 100000
 Trials = []
 
 
 def biasedcoinflip(p=0.5):
-    # EDIT
-    # Create method for biased coin flip
-    # Return 1 for heads, with probability p
-    # and 0 for tails
-
+    if random.random() <= p:
+        return 1
+    else:
+        return 0
 
 for TrialIndex1 in range(0, NumberTrials):
     Trials.append(biasedcoinflip(ParameterP))
@@ -39,16 +38,25 @@ print 'The average number of ones is {0:.4f}.'.format(TrialAverage)
 SumTrials = []
 
 for TrialIndex2 in range(0, NumberTrials):
-    # EDIT
-    # Add NumberFlips coin flips for each SumTrials outcome
-    #
+    flipsTrials = []
+    summFlips = 0
+
+    for TrialIndex3 in range(0, NumberFlips):
+        flipsTrials.append(biasedcoinflip(ParameterP))
+    
+    summFlips = sum(flipsTrials)
+    SumTrials.append(summFlips)
 
 Distribution = []
 for OutcomeIndex1 in range(0, NumberFlips + 1):
     Distribution.append(SumTrials.count(OutcomeIndex1) / (1.0 * NumberTrials))
 
+strwq = "The summation of the distributions is: "
+str23 = strwq.replace("\n", "")
+
+print str23
+print sum(Distribution)
 print repr(Distribution)
-# EDIT
 # Print the sum of the elements in Distribution
 #
 
@@ -67,6 +75,8 @@ plt.show()
 """
 Describe what happens to the figure as you vary ParameterP from zero to one.
 
+As you change ParameterP, your sample distribution will move to other places, for example if ParameterP is 0.7, you should see the highest normal bar centered at 0.7, however if made to something like 0.3, the highest normal is centered on 0.3
+
 What is the sum of the elements in Distribtion?
 Place your answer in the __Answer1__ variable at the top of this file.
 
@@ -75,3 +85,4 @@ Place your answer in the __Answer2__ variable at the top of this file.
 
 
 """
+

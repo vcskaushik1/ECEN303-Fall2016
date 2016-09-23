@@ -4,7 +4,7 @@ __GitHubID__ = "tspohrer"
 __SelfGrade__ = "5"
 __Challenge__ = "1"
 __Answer1__ = "1.0"
-__Answer2__ = "6 w/ a probability of 0.3"
+__Answer2__ = "6 and 0.3"
 
 
 import random

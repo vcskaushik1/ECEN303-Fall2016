@@ -2,7 +2,7 @@
 "__author__ = Ross Bodeker"
 "__NetID__ = rossbodeker"
 "__GitHubID__ = rossbodker"
-"__SelfGrade__ = 3"
+"__SelfGrade__ = 4"
 "__Challenge__ = 1"
 "__Answer1__ = 1"
 "__Answer2__ = 6"

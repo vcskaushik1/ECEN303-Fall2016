@@ -1,10 +1,10 @@
 __author__ = "Dillon Johnson"
 __NetID__ = "dillonjohnson48"
 __GitHubID__ = "dillonjohnson48"
-__SelfGrade__ = ""
+__SelfGrade__ = "5"
 __Challenge__ = "1"
-__Answer1__ = ""
-__Answer2__ = ""
+__Answer1__ = "1"
+__Answer2__ = "6"
 
 """
 Random Signals and Systems
@@ -35,7 +35,7 @@ for TrialIndex1 in range(0, NumberTrials):
     Trials.append(biasedcoinflip(ParameterP))
 
 TrialAverage = sum(Trials) / (1.0 * len(Trials))
-print 'The average number of ones is {0:.4f}.'.format(TrialAverage)
+print ('The average number of ones is {0:.4f}.'.format(TrialAverage))
 
 SumTrials = []
 
@@ -74,6 +74,7 @@ plt.show()
 
 """
 Describe what happens to the figure as you vary ParameterP from zero to one.
+-The maximum value moves from the left side to the right.
 What is the sum of the elements in Distribtion?
 Place your answer in the __Answer1__ variable at the top of this file.
 What is the most likely outcome for ParameterP = 0.7 and NumberFlips = 8?

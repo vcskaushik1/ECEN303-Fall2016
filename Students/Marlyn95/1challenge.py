@@ -17,7 +17,7 @@ import math
 import matplotlib.pyplot as plt
 
 
-ParameterP = 0.3
+ParameterP = 0.7
 NumberFlips = 8
 NumberTrials = 100000
 Trials = []

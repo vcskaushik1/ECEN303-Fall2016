@@ -42,7 +42,7 @@ for TrialIndex2 in range(0, NumberTrials):
     Sum = 0                                 #define a variable for sum and set it equal to zero
 
     for sumcalc in range(0, NumberFlips):   #define a for loop that will start at zero and iterate through the number of flips
-        Sum = Sum + biasedcoinflip(ParameterP)  #sum is initially zero; populate with the number of heads flipped
+        Sum += biasedcoinflip(ParameterP)  #sum is initially zero; populate with the number of heads flipped
 
     SumTrials.append(Sum)                       #put variable sum into SumTrials
 

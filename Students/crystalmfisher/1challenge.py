@@ -3,8 +3,8 @@ __NetID__ = "crystal_fisher"
 __GitHubID__ = "crystalmfisher"
 __SelfGrade__ = ""
 __Challenge__ = "1"
-__Answer1__ = ""
-__Answer2__ = ""
+__Answer1__ = "1"
+__Answer2__ = "6"
 
 """
 Random Signals and Systems
@@ -30,7 +30,7 @@ def biasedcoinflip(p=0.5):
     # and 0 for tails
 	if biasedcoinflip == p:
 		return 1
-	else
+	else:
 		return 0
 	# Is this right? ^^^ Maybe it's not supposed to be biasedcoinflip?
 

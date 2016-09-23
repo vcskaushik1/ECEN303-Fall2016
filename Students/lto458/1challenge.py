@@ -1,10 +1,10 @@
-__author__ = ""
-__NetID__ = ""
-__GitHubID__ = ""
+__author__ = "Lorenzo Oviedo"
+__NetID__ = "lto458"
+__GitHubID__ = "lto458"
 __SelfGrade__ = ""
 __Challenge__ = "1"
-__Answer1__ = ""
-__Answer2__ = ""
+__Answer1__ = "1.0"
+__Answer2__ = "6"
 
 """
 Random Signals and Systems
@@ -17,14 +17,17 @@ import math
 import matplotlib.pyplot as plt
 
 
-ParameterP = 0.3
+ParameterP = 0.7
 NumberFlips = 8
 NumberTrials = 100000
 Trials = []
 
 
-def biasedcoinflip(p=0.5):
-    # EDIT
+def biasedcoinflip(p=0.8):
+    if random.random() < p:
+        return 1
+    else:
+        return 0
     # Create method for biased coin flip
     # Return 1 for heads, with probability p
     # and 0 for tails
@@ -34,21 +37,25 @@ for TrialIndex1 in range(0, NumberTrials):
     Trials.append(biasedcoinflip(ParameterP))
 
 TrialAverage = sum(Trials) / (1.0 * len(Trials))
-print 'The average number of ones is {0:.4f}.'.format(TrialAverage)
+print(TrialAverage)
+#print ('The average number of ones is {0:.4f}. ').format(TrialAverage)
 
 SumTrials = []
 
 for TrialIndex2 in range(0, NumberTrials):
-    # EDIT
-    # Add NumberFlips coin flips for each SumTrials outcome
+
+    s=0
+    for summ in range(0, NumberFlips):
+        s+=biasedcoinflip(ParameterP)
+    SumTrials.append(s)
     #
 
 Distribution = []
 for OutcomeIndex1 in range(0, NumberFlips + 1):
     Distribution.append(SumTrials.count(OutcomeIndex1) / (1.0 * NumberTrials))
 
-print repr(Distribution)
-# EDIT
+print( sum(Distribution))
+
 # Print the sum of the elements in Distribution
 #
 

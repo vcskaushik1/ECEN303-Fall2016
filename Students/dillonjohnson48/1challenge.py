@@ -1,9 +1,9 @@
-__author__ = "Juan Gomez"
-__NetID__ = "juanigomez"
-__GitHubID__ = "juanigomez95"
+__author__ = "Dillon Johnson"
+__NetID__ = "dillonjohnson48"
+__GitHubID__ = "dillonjohnson48"
 __SelfGrade__ = "5"
 __Challenge__ = "1"
-__Answer1__ = "1.0"
+__Answer1__ = "1"
 __Answer2__ = "6"
 
 """
@@ -12,10 +12,9 @@ Course: ECEN 303-502
 Maximum Grade: 5pt
 """
 
-import math
 import random
+import math
 import matplotlib.pyplot as plt
-
 
 
 ParameterP = 0.3
@@ -23,41 +22,43 @@ NumberFlips = 8
 NumberTrials = 100000
 Trials = []
 
-def biasedcoinflip(p):
-    x = random.random()
-    "p is the probability of getting heads so if p"
-    "x is a random number between 0 and 1"
-    "if x is smaller than p, it will be heads and vice versa"
-    if x < p:
-        outcome=1
+
+def biasedcoinflip(p=0.5):
+    Num = random.random()
+    if (Num < p):   #p bias
+        return 1    #1 is heads
     else:
-        outcome=0
-    return outcome
+        return 0    #0 is tails
+
 
 for TrialIndex1 in range(0, NumberTrials):
     Trials.append(biasedcoinflip(ParameterP))
 
 TrialAverage = sum(Trials) / (1.0 * len(Trials))
-print 'The average number of ones is {0:.4f}.'.format(TrialAverage)
+print ('The average number of ones is {0:.4f}.'.format(TrialAverage))
 
 SumTrials = []
 
 for TrialIndex2 in range(0, NumberTrials):
-    i = 0
-    for x in range(0,NumberFlips):
-        i = i + biasedcoinflip(ParameterP)
-    SumTrials.append(i)
+    Sum = 0                                     #reset value to 0
+
+    for Sample in range(0, NumberFlips):        #0 to NumberFlips value in header
+        Sum = Sum + biasedcoinflip(ParameterP)  #Sum is the accumulative sum of past value and current biased flip
+
+    SumTrials.append(Sum)                       #adds sum to the end of the list
+
 
 Distribution = []
 for OutcomeIndex1 in range(0, NumberFlips + 1):
     Distribution.append(SumTrials.count(OutcomeIndex1) / (1.0 * NumberTrials))
 
-print repr(Distribution)
+print (repr(Distribution))
 
-Sum= 0
-for y in range(0,NumberFlips):
-    Sum = Sum + Distribution[y]
-    print Sum
+SumDistribution = 0
+for i in Distribution:
+    SumDistribution = SumDistribution + i
+print('Sum of Distribution elements is {0:.2f}.'.format(SumDistribution))
+
 
 OutcomeIndex2 = range(0, NumberFlips + 1)
 num_bins = len(OutcomeIndex2)
@@ -73,12 +74,16 @@ plt.show()
 
 """
 Describe what happens to the figure as you vary ParameterP from zero to one.
+-The maximum value moves from the left side to the right.
 What is the sum of the elements in Distribtion?
-
-The the distribution will shift from left to right as heads become more prominent.
-The sum of the distriution will eventually reach the number of coin flips.
-
 Place your answer in the __Answer1__ variable at the top of this file.
 What is the most likely outcome for ParameterP = 0.7 and NumberFlips = 8?
 Place your answer in the __Answer2__ variable at the top of this file.
+
+What is the sum of the elements in Distribtion?
+Place your answer in the __Answer1__ variable at the top of this file.
+
+What is the most likely outcome for ParameterP = 0.7 and NumberFlips = 8?
+Place your answer in the __Answer2__ variable at the top of this file.
+
 """

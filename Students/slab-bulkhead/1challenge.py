@@ -51,8 +51,12 @@ Distribution = []
 for OutcomeIndex1 in range(0, NumberFlips + 1):
     Distribution.append(SumTrials.count(OutcomeIndex1) / (1.0 * NumberTrials))
 
-# Print the sum of the elements in Distribution
 print repr(Distribution)
+#  Print the sum of the elements in Distribution
+ElementSum = 0
+for i in range(0, len(Distribution)):  # len function gets length of array
+    ElementSum += Distribution[i]  # increment through array and add
+print "The sum of the elements in Distribution is ", ElementSum
 
 OutcomeIndex2 = range(0, NumberFlips + 1)
 num_bins = len(OutcomeIndex2)

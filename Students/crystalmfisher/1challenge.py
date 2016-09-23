@@ -48,7 +48,7 @@ for TrialIndex2 in range(0, NumberTrials):
     # Add NumberFlips coin flips for each SumTrials outcome
     # Similar to Binomial.py (fill this out with Binomial code)
 	 count = 0
-    for i in range(NumberFlips):
+    for i in range(length(NumberFlips)):
             if random.random < p:
                 count += 1
     Trials.append(count)

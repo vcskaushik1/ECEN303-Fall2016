@@ -3,7 +3,7 @@ __NetID__ = "josbo757"
 __GitHubID__ = "josbo757"
 __SelfGrade__ = ""
 __Challenge__ = "1"
-__Answer1__ = ""
+__Answer1__ = "1"
 __Answer2__ = ""
 
 """
@@ -58,7 +58,7 @@ for OutcomeIndex1 in range(0, NumberFlips + 1):
     Distribution.append(SumTrials.count(OutcomeIndex1) / (1.0 * NumberTrials))
 
 print (repr(Distribution))
-print (Distribution)
+print ((sum)Distribution)
 
 
 OutcomeIndex2 = range(0, NumberFlips + 1)

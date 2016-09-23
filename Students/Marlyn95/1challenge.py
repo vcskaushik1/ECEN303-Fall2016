@@ -17,12 +17,15 @@ import math
 import matplotlib.pyplot as plt
 
 
-ParameterP = 0.7
+ParameterP = 0.3
 NumberFlips = 8
 NumberTrials = 100000
 Trials = []
 
 
+# I would take a look at this. You want to define the function.
+# The for loop is not part of the function, but you do want the
+# for loop to call the function NumberTrials times.
 def biasedcoinflip(p=0.5):
     # EDIT
     # Create method for biased coin flip
@@ -45,12 +48,20 @@ SumTrials = []
 for TrialIndex2 in range(0, NumberTrials):
     # EDIT
     # Add NumberFlips coin flips for each SumTrials outcome
-    SumTrials.append(NumberTrials(NumberFlips)) 
+    SumTrials.append(NumberTrials(NumberFlips))
+    # Double check this. You want to append SumTrials with a number
+    # between 0 and NumberFlips. i.e. if you manage to flip 8 heads
+    # in a row, you want to append the number "8" to SumTrials. 
+    # Similarly, if you flip 4 heads in a row, you want to append
+    # the number "4." I did a second for loop.
 
 Distribution = []
 for OutcomeIndex1 in range(0, NumberFlips + 1):
     Distribution.append(SumTrials.count(OutcomeIndex1) / (1.0 * NumberTrials))
 
+# If you're not sure about Python 2 or 3, I would wrap all prints 
+# in parenthesis. e.g.
+# print(repr(Distribution))
 print repr(Distribution)
 # EDIT
 # Print the sum of the elements in Distribution

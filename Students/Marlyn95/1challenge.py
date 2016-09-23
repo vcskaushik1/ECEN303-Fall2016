@@ -17,7 +17,7 @@ import math
 import matplotlib.pyplot as plt
 
 
-ParameterP = 0.3
+ParameterP = 0.7
 NumberFlips = 8
 NumberTrials = 100000
 Trials = []
@@ -31,7 +31,6 @@ def biasedcoinflip(p=0.5):
     # Create method for biased coin flip
     # Return 1 for heads, with probability p
     # and 0 for tails
-for TrialIndex in range(0, NumberTrials):
         if random.random()< p :
             Trials.append(1)
         else:
@@ -48,8 +47,9 @@ SumTrials = []
 for TrialIndex2 in range(0, NumberTrials):
     # EDIT
     # Add NumberFlips coin flips for each SumTrials outcome
-    SumTrials.append(NumberTrials(NumberFlips))
-    # Double check this. You want to append SumTrials with a number
+    for TrialIndex3 in range(0, NumberFlips):
+    SumTrials.append(biasedcoinflip(ParameterP)) 
+    # You want to append SumTrials with a number
     # between 0 and NumberFlips. i.e. if you manage to flip 8 heads
     # in a row, you want to append the number "8" to SumTrials. 
     # Similarly, if you flip 4 heads in a row, you want to append
@@ -62,7 +62,7 @@ for OutcomeIndex1 in range(0, NumberFlips + 1):
 # If you're not sure about Python 2 or 3, I would wrap all prints 
 # in parenthesis. e.g.
 # print(repr(Distribution))
-print repr(Distribution)
+print (repr(Distribution))
 # EDIT
 # Print the sum of the elements in Distribution
 #

@@ -1,7 +1,7 @@
-__author__ = ""
-__NetID__ = ""
-__GitHubID__ = ""
-__SelfGrade__ = ""
+__author__ = "Michael Walker"
+__NetID__ = "mgwalker95"
+__GitHubID__ = "mgwalker95"
+__SelfGrade__ = "1"
 __Challenge__ = "1"
 __Answer1__ = ""
 __Answer2__ = ""
@@ -25,21 +25,36 @@ Trials = []
 
 def biasedcoinflip(p=0.5):
     # EDIT
+    #TrialSequence = []
+    #for TrialIndex in range(0, NumberTrials):
+    #    TrialSequence.append(random.randrange(Cardinality))
+    coinflipoutcome=0
+    if random.random() < p:
+        coinflipoutcome =1
+    else:
+        coinflipoutcome=0
+
+
     # Create method for biased coin flip
     # Return 1 for heads, with probability p
     # and 0 for tails
+    return coinflipoutcome
 
 
 for TrialIndex1 in range(0, NumberTrials):
     Trials.append(biasedcoinflip(ParameterP))
 
 TrialAverage = sum(Trials) / (1.0 * len(Trials))
-print 'The average number of ones is {0:.4f}.'.format(TrialAverage)
+print( 'The average number of ones is {0:.4f}.'.format(TrialAverage))
 
 SumTrials = []
 
 for TrialIndex2 in range(0, NumberTrials):
     # EDIT
+    count=0.0
+    for trial in range(0,NumberTrials):
+        count += biasedcoinflip(ParameterP)
+        SumTrials.append(count)
     # Add NumberFlips coin flips for each SumTrials outcome
     #
 
@@ -47,8 +62,9 @@ Distribution = []
 for OutcomeIndex1 in range(0, NumberFlips + 1):
     Distribution.append(SumTrials.count(OutcomeIndex1) / (1.0 * NumberTrials))
 
-print repr(Distribution)
+print(repr(Distribution))
 # EDIT
+print("The Sum of elements in Distribution is %f" % sum(i for i in Distribution))
 # Print the sum of the elements in Distribution
 #
 

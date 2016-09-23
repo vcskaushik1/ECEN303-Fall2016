@@ -1,10 +1,10 @@
 __author__ = "Crystal Fisher"
 __NetID__ = "crystal_fisher"
 __GitHubID__ = "crystalmfisher"
-__SelfGrade__ = "5"
+__SelfGrade__ = ""
 __Challenge__ = "1"
-__Answer1__ = "1"
-__Answer2__ = "6"
+__Answer1__ = ""
+__Answer2__ = ""
 
 """
 Random Signals and Systems
@@ -39,7 +39,7 @@ for TrialIndex1 in range(0, NumberTrials):
     Trials.append(biasedcoinflip(ParameterP))
 
 TrialAverage = sum(Trials) / (1.0 * len(Trials))
-print 'The average number of ones is {0:.4f}.'.format(TrialAverage)
+print ('The average number of ones is {0:.4f}.'.format(TrialAverage))
 
 SumTrials = []
 
@@ -47,8 +47,8 @@ for TrialIndex2 in range(0, NumberTrials):
     # EDIT
     # Add NumberFlips coin flips for each SumTrials outcome
     # Similar to Binomial.py (fill this out with Binomial code)
-	 count = 0
-    for i in range(length(NumberFlips)):
+    count = 0
+    for i in range(NumberFlips):
             if random.random < p:
                 count += 1
     Trials.append(count)
@@ -58,12 +58,12 @@ Distribution = []
 for OutcomeIndex1 in range(0, NumberFlips + 1):
     Distribution.append(SumTrials.count(OutcomeIndex1) / (1.0 * NumberTrials))
 
-print repr(Distribution)
+print (repr(Distribution))
 # EDIT
 # Print the sum of the elements in Distribution
 #
 sumDist = sum(Distribution)
-print 'Here is your sum:.f'.format(sumDist) # Is this right?
+print ('Here is your sum:.f'.format(sumDist)) # Is this right?
 
 OutcomeIndex2 = range(0, NumberFlips + 1)
 num_bins = len(OutcomeIndex2)

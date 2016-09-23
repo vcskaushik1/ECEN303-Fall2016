@@ -1,10 +1,10 @@
-__author__ = ""
-__NetID__ = ""
-__GitHubID__ = ""
-__SelfGrade__ = ""
+__author__ = "Gregory A Jordan"
+__NetID__ = "gjordan"
+__GitHubID__ = "slab-bulkhead"
+__SelfGrade__ = "5"  # out of 5
 __Challenge__ = "1"
-__Answer1__ = ""
-__Answer2__ = ""
+__Answer1__ = "1"
+__Answer2__ = "6"
 
 """
 Random Signals and Systems
@@ -16,18 +16,20 @@ import random
 import math
 import matplotlib.pyplot as plt
 
-
-ParameterP = 0.3
+ParameterP = 0.7  # vary from 0 to 1 to observe shifting bias
 NumberFlips = 8
 NumberTrials = 100000
 Trials = []
 
 
+# Create method for biased coin flip
 def biasedcoinflip(p=0.5):
-    # EDIT
-    # Create method for biased coin flip
-    # Return 1 for heads, with probability p
-    # and 0 for tails
+    if random.random() < p:
+        # Return 1 for heads, with probability p
+        return 1
+    else:
+        # and 0 for tails
+        return 0
 
 
 for TrialIndex1 in range(0, NumberTrials):
@@ -39,18 +41,18 @@ print 'The average number of ones is {0:.4f}.'.format(TrialAverage)
 SumTrials = []
 
 for TrialIndex2 in range(0, NumberTrials):
-    # EDIT
+    count = 0  # initialize a counter
     # Add NumberFlips coin flips for each SumTrials outcome
-    #
+    for i in range(0, NumberFlips):
+        count += biasedcoinflip(ParameterP)
+    SumTrials.append(count)
 
 Distribution = []
 for OutcomeIndex1 in range(0, NumberFlips + 1):
     Distribution.append(SumTrials.count(OutcomeIndex1) / (1.0 * NumberTrials))
 
-print repr(Distribution)
-# EDIT
 # Print the sum of the elements in Distribution
-#
+print repr(Distribution)
 
 OutcomeIndex2 = range(0, NumberFlips + 1)
 num_bins = len(OutcomeIndex2)
@@ -66,6 +68,8 @@ plt.show()
 
 """
 Describe what happens to the figure as you vary ParameterP from zero to one.
+
+The probability of getting a head on that trial shifts from trial 1 to trial 8
 
 What is the sum of the elements in Distribtion?
 Place your answer in the __Answer1__ variable at the top of this file.

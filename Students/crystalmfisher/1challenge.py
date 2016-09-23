@@ -1,10 +1,10 @@
 __author__ = "Crystal Fisher"
 __NetID__ = "crystal_fisher"
 __GitHubID__ = "crystalmfisher"
-__SelfGrade__ = ""
+__SelfGrade__ = "5"
 __Challenge__ = "1"
-__Answer1__ = ""
-__Answer2__ = ""
+__Answer1__ = "1"
+__Answer2__ = "6"
 
 """
 Random Signals and Systems

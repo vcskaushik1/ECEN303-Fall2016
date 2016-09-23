@@ -1,10 +1,10 @@
-__author__ = ""
-__NetID__ = ""
-__GitHubID__ = ""
-__SelfGrade__ = ""
+__author__ = "Samuel Todd Flanagan"
+__NetID__ = "toddflanagan95"
+__GitHubID__ = "toddflan"
+__SelfGrade__ = "5"
 __Challenge__ = "1"
-__Answer1__ = ""
-__Answer2__ = ""
+__Answer1__ = "1"
+__Answer2__ = "6"
 
 """
 Random Signals and Systems
@@ -17,40 +17,54 @@ import math
 import matplotlib.pyplot as plt
 
 
-ParameterP = 0.3
+ParameterP = 0.7
 NumberFlips = 8
 NumberTrials = 100000
 Trials = []
 
-
+# EDIT****************************************************
 def biasedcoinflip(p=0.5):
-    # EDIT
-    # Create method for biased coin flip
-    # Return 1 for heads, with probability p
-    # and 0 for tails
+    RandNum = random.random()       # generate random number [0.0, 1.0)
 
+    if (RandNum < p):               # makes the "coin" biased
+        return 1                    # heads
+    else:
+        return 0                    # tails
+# ********************************************************
 
 for TrialIndex1 in range(0, NumberTrials):
     Trials.append(biasedcoinflip(ParameterP))
 
 TrialAverage = sum(Trials) / (1.0 * len(Trials))
-print 'The average number of ones is {0:.4f}.'.format(TrialAverage)
+print('The average number of ones is {0:.4f}.'.format(TrialAverage))
 
 SumTrials = []
 
+# EDIT********************************************************
 for TrialIndex2 in range(0, NumberTrials):
-    # EDIT
-    # Add NumberFlips coin flips for each SumTrials outcome
-    #
+    SumNumFlips = 0
+
+    for Flip in range(0, NumberFlips):
+        SumNumFlips = SumNumFlips + biasedcoinflip(ParameterP)
+                                    # add NumberFlips coin flips for each SumTrials outcome
+    SumTrials.append(SumNumFlips)
+# ************************************************************
 
 Distribution = []
 for OutcomeIndex1 in range(0, NumberFlips + 1):
     Distribution.append(SumTrials.count(OutcomeIndex1) / (1.0 * NumberTrials))
 
-print repr(Distribution)
-# EDIT
-# Print the sum of the elements in Distribution
-#
+print(repr(Distribution))
+
+# EDIT*************************************************************************
+SumDist = 0                             # set sum of distribution to 0
+
+for DistElements in Distribution:       # loop through each element of Distribution
+    SumDist = SumDist + DistElements    # add each element
+
+print('Sum of the elements in Distribution = {0:.2f}.'.format(SumDist))      # prints the sum of Distribution
+# *****************************************************************************
+
 
 OutcomeIndex2 = range(0, NumberFlips + 1)
 num_bins = len(OutcomeIndex2)
@@ -66,6 +80,7 @@ plt.show()
 
 """
 Describe what happens to the figure as you vary ParameterP from zero to one.
+    - The maximum of the figure shifts from left to right.*************************************
 
 What is the sum of the elements in Distribtion?
 Place your answer in the __Answer1__ variable at the top of this file.

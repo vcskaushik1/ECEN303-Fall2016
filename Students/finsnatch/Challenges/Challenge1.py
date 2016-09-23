@@ -1,10 +1,10 @@
-__author__ = ""
-__NetID__ = ""
-__GitHubID__ = ""
-__SelfGrade__ = ""
+__author__ = "Alan Ngo"
+__NetID__ = "alntamu7"
+__GitHubID__ = "finsnatch"
+__SelfGrade__ = "5"
 __Challenge__ = "1"
-__Answer1__ = ""
-__Answer2__ = ""
+__Answer1__ = "1.0"
+__Answer2__ = "Value 6 with typically a probability of 0.3"
 
 """
 Random Signals and Systems
@@ -17,7 +17,7 @@ import math
 import matplotlib.pyplot as plt
 
 
-ParameterP = 0.3
+ParameterP = 0.7
 NumberFlips = 8
 NumberTrials = 100000
 Trials = []
@@ -28,6 +28,12 @@ def biasedcoinflip(p=0.5):
     # Create method for biased coin flip
     # Return 1 for heads, with probability p
     # and 0 for tails
+	y=random.random()
+
+	if y<p:
+		return 1 
+	else:
+		return 0
 
 
 for TrialIndex1 in range(0, NumberTrials):
@@ -41,7 +47,10 @@ SumTrials = []
 for TrialIndex2 in range(0, NumberTrials):
     # EDIT
     # Add NumberFlips coin flips for each SumTrials outcome
-    #
+	count = 0
+	for x in range(0,NumberFlips):
+		count = count + biasedcoinflip(ParameterP)
+	SumTrials.append(count) 
 
 Distribution = []
 for OutcomeIndex1 in range(0, NumberFlips + 1):
@@ -51,6 +60,10 @@ print repr(Distribution)
 # EDIT
 # Print the sum of the elements in Distribution
 #
+Sum = 0
+for x in range(0,len(Distribution)):
+	Sum += Distribution[x]
+print "The sum of the elements in Distribution is: %.2f" % Sum 
 
 OutcomeIndex2 = range(0, NumberFlips + 1)
 num_bins = len(OutcomeIndex2)
@@ -66,6 +79,8 @@ plt.show()
 
 """
 Describe what happens to the figure as you vary ParameterP from zero to one.
+	As ParameterP increases from zero to one the number of ones produced by biasedcoinflip increases. The average number of ones turns out to be very close to the value of ParameterP.
+	Increasing ParameterP from zero to one also shifts the "curve" on the plot to the right. 
 
 What is the sum of the elements in Distribtion?
 Place your answer in the __Answer1__ variable at the top of this file.

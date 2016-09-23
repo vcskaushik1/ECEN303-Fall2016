@@ -1,10 +1,10 @@
-__author__ = ""
-__NetID__ = ""
-__GitHubID__ = ""
-__SelfGrade__ = ""
-__Challenge__ = "1"
-__Answer1__ = ""
-__Answer2__ = ""
+__author__ = " Dustin Martin "
+__NetID__ = " tobster34 "
+__GitHubID__ = " dustinwm1 "
+__SelfGrade__ = " 3 "
+__Challenge__ = " 1 "
+__Answer1__ = " ? "
+__Answer2__ = " 6 "
 
 """
 Random Signals and Systems
@@ -17,17 +17,17 @@ import math
 import matplotlib.pyplot as plt
 
 
-ParameterP = 0.3
+ParameterP = .7
 NumberFlips = 8
 NumberTrials = 100000
 Trials = []
 
 
 def biasedcoinflip(p=0.5):
-    # EDIT
-    # Create method for biased coin flip
-    # Return 1 for heads, with probability p
-    # and 0 for tails
+   if random.random() < p :
+       return 1
+   else :
+       return 0
 
 
 for TrialIndex1 in range(0, NumberTrials):
@@ -39,18 +39,22 @@ print 'The average number of ones is {0:.4f}.'.format(TrialAverage)
 SumTrials = []
 
 for TrialIndex2 in range(0, NumberTrials):
-    # EDIT
-    # Add NumberFlips coin flips for each SumTrials outcome
-    #
+    SumOFlip=0
+    SumOFlip += biasedcoinflip(ParameterP)
+    SumTrials.append(SumOFlip)
+
 
 Distribution = []
 for OutcomeIndex1 in range(0, NumberFlips + 1):
     Distribution.append(SumTrials.count(OutcomeIndex1) / (1.0 * NumberTrials))
 
 print repr(Distribution)
-# EDIT
-# Print the sum of the elements in Distribution
-#
+
+for elements in Distribution:
+    DistSum=0
+    DistSum += elements
+
+print(DistSum)
 
 OutcomeIndex2 = range(0, NumberFlips + 1)
 num_bins = len(OutcomeIndex2)
@@ -66,12 +70,8 @@ plt.show()
 
 """
 Describe what happens to the figure as you vary ParameterP from zero to one.
-
 What is the sum of the elements in Distribtion?
 Place your answer in the __Answer1__ variable at the top of this file.
-
 What is the most likely outcome for ParameterP = 0.7 and NumberFlips = 8?
 Place your answer in the __Answer2__ variable at the top of this file.
-
-
 """

@@ -17,7 +17,7 @@ import math
 import matplotlib.pyplot as plt
 
 
-ParameterP = 0.1
+ParameterP = 0.7
 NumberFlips = 8
 NumberTrials = 100000
 Trials = []
@@ -44,7 +44,7 @@ for TrialIndex2 in range(0, NumberTrials):
     for sumcalc in range(0, NumberFlips):   #define a for loop that will start at zero and iterate through the number of flips
         Sum = Sum + biasedcoinflip(ParameterP)  #sum is initially zero; populate with the number of heads flipped
 
-    SumTrials.append(Sum)
+    SumTrials.append(Sum)                       #put variable sum into SumTrials
 
 
 Distribution = []

@@ -1,7 +1,7 @@
 __author__ = "Michael Walker"
 __NetID__ = "mgwalker95"
 __GitHubID__ = "mgwalker95"
-__SelfGrade__ = "1"
+__SelfGrade__ = "4"
 __Challenge__ = "1"
 __Answer1__ = ""
 __Answer2__ = ""
@@ -15,6 +15,7 @@ Maximum Grade: 5pt
 import random
 import math
 import matplotlib.pyplot as plt
+#not allowing me to run because i dont have matplotlib.pyplot
 
 
 ParameterP = 0.3

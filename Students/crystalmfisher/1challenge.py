@@ -51,7 +51,7 @@ for TrialIndex2 in range(0, NumberTrials):
     for i in range(NumberFlips):
             if random.random() < ParameterP:
                 count += 1
-    Trials.append(count)
+    SumTrials.append(count)
 
 	
 Distribution = []

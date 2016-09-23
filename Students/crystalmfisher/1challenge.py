@@ -28,7 +28,7 @@ def biasedcoinflip(p=0.5):
     # Create method for biased coin flip
     # Return 1 for heads, with probability p
     # and 0 for tails
-	if biasedcoinflip == p:
+	if biasedcoinflip == ParameterP:
 		return 1
 	else:
 		return 0

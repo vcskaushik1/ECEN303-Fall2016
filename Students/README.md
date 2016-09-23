@@ -25,16 +25,16 @@ Undergraduate Students
 * Aaron Ingram, [aaronaingram](https://github.com/aaronaingram)
 * Dillon Johnson, [dillonjohnson48](https://github.com/dillonjohnson48)
 * Gregory A Jordan, [slab-bulkhead](https://github.com/slab-bulkhead)
-* Andrew Knowlton
+* Andrew Knowlton [andyknowlton] (https://github.com/andyknowlton)
 * Juan J. Lozoya, [jlozoya4](https://github.com/jlozoya4)
 * Simmi Mani, [sma123](https://github.com/sma123)
 * Stefan J. Manoharan, [stefjabez](https://github.com/stefjabez)
 * Dustin Martin, [dustinwm1](https://github/dustinmartin)
 * Rami Mooti, [RamiMooti](https://github.com/RamiMooti)
-* Caitlyn Morrison
+* Caitlyn Morrison, [Ranissa](https://github.com/Ranissa)
 * Alan Ngo, [finsnatch](https:/github.com/finsnatch)
 * Abu Nowshad
-* Jesus Orocio
+* Jesus Orocio, [orojes95](https://github.com/orojes95)
 * John Osborn, [josbo757](https://github.com/josbo757)
 * Lorenzo Oviedo, [lto458](https://github.com/lto458)
 * Sergio Pineda, [sebastianpineda](https://github.com/sebastianpineda)

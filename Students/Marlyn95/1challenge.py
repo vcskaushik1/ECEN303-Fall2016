@@ -28,7 +28,11 @@ def biasedcoinflip(p=0.5):
     # Create method for biased coin flip
     # Return 1 for heads, with probability p
     # and 0 for tails
-
+for TrialIndex in range(0, NumberTrials):
+        if random.random()< p :
+            Trials.append(1)
+        else:
+            Trials.append(0)
 
 for TrialIndex1 in range(0, NumberTrials):
     Trials.append(biasedcoinflip(ParameterP))
@@ -41,7 +45,7 @@ SumTrials = []
 for TrialIndex2 in range(0, NumberTrials):
     # EDIT
     # Add NumberFlips coin flips for each SumTrials outcome
-    #
+    SumTrials.append(NumberTrials(NumberFlips)) 
 
 Distribution = []
 for OutcomeIndex1 in range(0, NumberFlips + 1):
@@ -51,6 +55,8 @@ print repr(Distribution)
 # EDIT
 # Print the sum of the elements in Distribution
 #
+DistribuitionSum= sum(Distribution)
+print('The sum of the elements in Distribution is {0:.4f}.'.format(DistribuitionSum))
 
 OutcomeIndex2 = range(0, NumberFlips + 1)
 num_bins = len(OutcomeIndex2)

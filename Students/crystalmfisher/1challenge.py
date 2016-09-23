@@ -49,7 +49,7 @@ for TrialIndex2 in range(0, NumberTrials):
     # Similar to Binomial.py (fill this out with Binomial code)
     count = 0
     for i in range(NumberFlips):
-            if random.random < ParameterP:
+            if random.random() < ParameterP:
                 count += 1
     Trials.append(count)
 

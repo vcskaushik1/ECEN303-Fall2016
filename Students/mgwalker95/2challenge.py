@@ -3,7 +3,7 @@ Michael Walker
 Username: mgwalker95
 Date: 9/30/16
 ECEN 303
-
+Self Grade:5/5
 
 """
 

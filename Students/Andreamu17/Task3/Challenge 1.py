@@ -1,6 +1,6 @@
-__author__ = "Rigoberto Rodriguez"
-__NetID__ = "422008292"
-__GitHubID__ = "rigorodriguez95"
+__author__ = "Andrea M. Urueta"
+__NetID__ = "andreamu17"
+__GitHubID__ = "andreamu17"
 __SelfGrade__ = "5"
 __Challenge__ = "1"
 __Answer1__ = "1"
@@ -26,10 +26,10 @@ Trials = []
 def biasedcoinflip(p=0.5):
     if random.random() < p:
 
-    	return 1
+        return 1    #for heads
     else:
 
-    	return 0
+        return 0    #for tails
 
 
 for TrialIndex1 in range(0, NumberTrials):
@@ -41,7 +41,7 @@ print 'The average number of ones is {0:.4f}.'.format(TrialAverage)
 SumTrials = []
 
 for TrialIndex2 in range(0, NumberTrials):
-    count = 0
+    count = 0       #start a counter
 
     for i in range(0, NumberFlips):
         count += biasedcoinflip(ParameterP)
@@ -55,7 +55,7 @@ print repr(Distribution)
 ElementSum = 0
 
 for i in range(0, len(Distribution)):
-	ElementSum += Distribution[i]
+ElementSum += Distribution[i]
 print "The sum of the elements in Distribution is ", ElementSum
 
 OutcomeIndex2 = range(0, NumberFlips + 1)
@@ -72,10 +72,8 @@ plt.show()
 
 """
 Describe what happens to the figure as you vary ParameterP from zero to one.
-
 What is the sum of the elements in Distribtion?
 Place your answer in the __Answer1__ variable at the top of this file.
-
 What is the most likely outcome for ParameterP = 0.7 and NumberFlips = 8?
 Place your answer in the __Answer2__ variable at the top of this file.
 """

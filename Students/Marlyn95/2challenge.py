@@ -1,6 +1,6 @@
-__author__ = ""
-__NetID__ = ""
-__GitHubID__ = ""
+__author__ = "Marlyn Rosales"
+__NetID__ = "marlyn95"
+__GitHubID__ = "marlyn95"
 __SelfGrade__ = ""
 __Challenge__ = "2"
 

@@ -1,7 +1,7 @@
-__author__ = ""
-__NetID__ = ""
-__GitHubID__ = ""
-__SelfGrade__ = ""
+__author__ = "Jovian Wysocki"
+__NetID__ = "Joviancw"
+__GitHubID__ = "Jovianwysocki"
+__SelfGrade__ = "5"
 __Challenge__ = "2"
 
 """
@@ -41,7 +41,7 @@ def geometricflip(p=0.5):
     return numberflips
 
 
-print "Part 1\n"
+print ("Part 1\n")
 
 Trials = []
 for TrialIndex1 in range(0, NumberTrials):
@@ -49,39 +49,51 @@ for TrialIndex1 in range(0, NumberTrials):
 #
 # EDIT
 #
+TrialAverage4 = Trials.count(4) / (1.0 * len(Trials))
 
-print "The empirical probability that the  number of flips is 4 is " \
+print ("The empirical probability that the  number of flips is 4 is " \
     # EDIT: + repr(Solution1)) \
-    + "."
+    + "{0:.4f}.".format(TrialAverage4))
 
 EvenTrials = 0
 for TrialIndex2 in range(0, NumberTrials):
+    if (Trials[TrialIndex2]%2 ==0): EvenTrials +=1
+
     #
     # EDIT
     #
+TrialAverageEven = Trials.count(4) / (1.0 * EvenTrials)
 
-print "The empirical probability that the number of flips is 4 conditional on number of flips being even is " \
+print ("The empirical probability that the number of flips is 4 conditional on number of flips being even is " \
     # EDIT: + repr(Solution2)) \
-    + "."
+    + "{0:.4f}.".format(TrialAverageEven))
 
 
-print "\nPart 2\n"
+print ("\nPart 2\n")
 
 Trials2 = []
 FinalA = 0
 FinalB = 0
 for TrialIndex2 in range(0, NumberTrials):
+    TempA =0
+    TempB =0
+    Trials2.append(0)
+    while (TempA==TempB):
+        TempA= biasedcoinflip(ParameterA)
+        TempB= biasedcoinflip(ParameterB)
+        Trials2[TrialIndex2]+=1
+    FinalA+=TempA
+    FinalB+=TempB
     #
     # EDIT
     #
-
-print "The empirical probability that the number of flips is 2 is " \
+TrialAverage2 = Trials2.count(2) / (1.0 * len(Trials2))
+print ("The empirical probability that the number of flips is 2 is " \
     # EDIT: + repr(Solution3)) \
-    + "."
-print "The empirical probability that coin A is showing 1 when the stopping condition is met is " \
+    + "{0:.4f}.".format(TrialAverage2))
+print ("The empirical probability that coin A is showing 1 when the stopping condition is met is " \
     # EDIT: + repr(Solution4)) \
-    + "."
-print "The empirical probability that coin B is showing 1 when the stopping condition is met is " \
+    + "{0:.4f}.".format(FinalA/(len(Trials2))))
+print ("The empirical probability that coin B is showing 1 when the stopping condition is met is " \
     # EDIT: + repr(Solution5)) \
-    + "."
-
+    + "{0:.4f}.".format(FinalB/(len(Trials2))))

@@ -1,7 +1,7 @@
 __author__ = "Marlyn Rosales"
 __NetID__ = "marlyn95"
 __GitHubID__ = "marlyn95"
-__SelfGrade__ = ""
+__SelfGrade__ = "5/5"
 __Challenge__ = "2"
 
 """
@@ -12,7 +12,7 @@ Maximum Grade: 5pt
 
 import random
 import math
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 
 ParameterP = 1.0/3.0    # Parameter of digital coin
@@ -22,12 +22,11 @@ NumberTrials = 100000
 
 
 def biasedcoinflip(p=0.5):
-    """
-    This method returns a one with probability p and it returns a zero with
-    probability (1 - p). The default parameter is p=0.5; this can be changed
-    by passing an argument to the method.
-    """
-    return math.floor(random.random() + p)
+        if random.random()< p :
+            return 1
+        else:
+            return 0
+        return math.floor(random.random() + p)
 
 
 def geometricflip(p=0.5):
@@ -41,47 +40,52 @@ def geometricflip(p=0.5):
     return numberflips
 
 
-print "Part 1\n"
+print ("Part 1\n")
 
 Trials = []
 for TrialIndex1 in range(0, NumberTrials):
     Trials.append(geometricflip(ParameterP))
-#
 # EDIT
-#
 
-print "The empirical probability that the  number of flips is 4 is " \
-    # EDIT: + repr(Solution1)) \
-    + "."
+print ("The empirical probability that the  number of flips is 4 is ", Trials.count(4)/NumberTrials, ".")
 
 EvenTrials = 0
 for TrialIndex2 in range(0, NumberTrials):
-    #
-    # EDIT
-    #
+    variable= geometricflip(ParameterP)
+    if(variable%2==0):
+        EvenTrials+=1
+    Trials.append(variable)
 
-print "The empirical probability that the number of flips is 4 conditional on number of flips being even is " \
-    # EDIT: + repr(Solution2)) \
-    + "."
+print ("The empirical probability that the number of flips is 4 conditional on number of flips being even is ", (Trials.count(4)/EvenTrials))
 
 
-print "\nPart 2\n"
 
-Trials2 = []
-FinalA = 0
-FinalB = 0
+print ("\nPart 2\n")
+
+Trials2=[]
+Trials3=[]
+def geometricflip2(p1=.5, p2=0.5):
+    cnt=0
+    cnt2=0
+    FinalA = 0
+    FinalB = 0
+    while(cnt==cnt2):
+        cnt= biasedcoinflip(p1)
+        cnt2=biasedcoinflip(p2)
+        FinalA+=1
+
+    if(cnt==1):
+        AH=1
+    else:
+        AH=3
+    return  FinalA, AH
+
 for TrialIndex2 in range(0, NumberTrials):
-    #
-    # EDIT
-    #
+    Final, A1= geometricflip2(ParameterA, ParameterB)
+    Trials2.append(Final)
+    Trials3.append(A1)
 
-print "The empirical probability that the number of flips is 2 is " \
-    # EDIT: + repr(Solution3)) \
-    + "."
-print "The empirical probability that coin A is showing 1 when the stopping condition is met is " \
-    # EDIT: + repr(Solution4)) \
-    + "."
-print "The empirical probability that coin B is showing 1 when the stopping condition is met is " \
-    # EDIT: + repr(Solution5)) \
-    + "."
 
+print ("The empirical probability that the number of flips is 2 is " , (Trials2.count(2)/NumberTrials), ".")
+print ("The empirical probability that coin A is showing 1 when the stopping condition is met is " , Trials3.count(1)/NumberTrials)
+print ("The empirical probability that coin B is showing 1 when the stopping condition is met is " , Trials3.count(3)/NumberTrials)

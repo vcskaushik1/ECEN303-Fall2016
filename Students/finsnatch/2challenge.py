@@ -1,7 +1,7 @@
-__author__ = ""
-__NetID__ = ""
-__GitHubID__ = ""
-__SelfGrade__ = ""
+__author__ = "Alan Ngo"
+__NetID__ = "alntamu7"
+__GitHubID__ = "finsnatch"
+__SelfGrade__ = "5"
 __Challenge__ = "2"
 
 """
@@ -49,20 +49,24 @@ for TrialIndex1 in range(0, NumberTrials):
 #
 # EDIT
 #
-
-print "The empirical probability that the  number of flips is 4 is " \
-    # EDIT: + repr(Solution1)) \
-    + "."
+#print(Trials)
+Solution1 = Trials.count(4)/float(len(Trials))
+print "The empirical probability that the  number of flips is 4 is " + repr(Solution1) + "."
 
 EvenTrials = 0
+evenT = []
 for TrialIndex2 in range(0, NumberTrials):
     #
     # EDIT
     #
+    temp = geometricflip(ParameterP)
+    if temp % 2 == 0:
+        EvenTrials+=1
+        evenT.append(temp)
+    
+Solution2 = evenT.count(4)/float(EvenTrials)
 
-print "The empirical probability that the number of flips is 4 conditional on number of flips being even is " \
-    # EDIT: + repr(Solution2)) \
-    + "."
+print "The empirical probability that the number of flips is 4 conditional on number of flips being even is " + repr(Solution2) + "."
 
 
 print "\nPart 2\n"
@@ -74,14 +78,25 @@ for TrialIndex2 in range(0, NumberTrials):
     #
     # EDIT
     #
+    tempA = biasedcoinflip(ParameterA)
+    tempB = biasedcoinflip(ParameterB)
+    cnt = 1
+    while tempA == 0 and tempB == 0 or tempA ==1  and tempB == 1:
+        cnt+=1
+        tempA = biasedcoinflip(ParameterA)
+        tempB = biasedcoinflip(ParameterB)
+        if tempA == 1 and tempB == 0:
+            FinalA+=1
+        elif tempA == 0 and tempB ==1:
+            FinalB+=1
+    Trials2.append(cnt)
 
-print "The empirical probability that the number of flips is 2 is " \
-    # EDIT: + repr(Solution3)) \
-    + "."
-print "The empirical probability that coin A is showing 1 when the stopping condition is met is " \
-    # EDIT: + repr(Solution4)) \
-    + "."
-print "The empirical probability that coin B is showing 1 when the stopping condition is met is " \
-    # EDIT: + repr(Solution5)) \
-    + "."
+#print(Trials2)
+Solution3 = Trials2.count(2)/float(len(Trials2))
+Solution4 = FinalA/float(len(Trials2))
+Solution5 = FinalB/float(len(Trials2))
+
+print "The empirical probability that the number of flips is 2 is " + repr(Solution3) + "."
+print "The empirical probability that coin A is showing 1 when the stopping condition is met is " + repr(Solution4) + "."
+print "The empirical probability that coin B is showing 1 when the stopping condition is met is " + repr(Solution5) + "."
 

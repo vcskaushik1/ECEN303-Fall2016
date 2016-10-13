@@ -92,8 +92,8 @@ Answer3 = Trials2.count(2)/ float(NumberTrials)   #Problem 1
 Answer4 = A/ float(NumberTrials)             #Problem 2
 Answer5 = B/ float(NumberTrials)             #Problem 3
 
-print ("The empirical probability that the number of flips is 2 is " + repr(solution3) + ".")
+print ("The empirical probability that the number of flips is 2 is " + repr(Answer3) + ".")
 
-print ("The empirical probability that coin A is showing 1 when the stopping condition is met is " + repr(solution4)+ ".")
+print ("The empirical probability that coin A is showing 1 when the stopping condition is met is " + repr(Answer4)+ ".")
 
-print ("The empirical probability that coin B is showing 1 when the stopping condition is met is " + repr(solution5)+ ".")
+print ("The empirical probability that coin B is showing 1 when the stopping condition is met is " + repr(Answer5)+ ".")

@@ -49,7 +49,7 @@ for TrialIndex1 in range(0, NumberTrials):
     Trials.append(geometricflip(ParameterP))
     
 Answer1 = Trials.count(4)/float(len(Trials))
-print("The empirical probability that the  number of flips is 4 is " + repr(solution1) + ".")
+print("The empirical probability that the  number of flips is 4 is " + repr(Answer1) + ".")
 
 
 EvenTrials = 0
@@ -58,7 +58,7 @@ for TrialIndex2 in range(0, NumberTrials):
         EvenTrials += 1
         
 Answer2 = Trials.count(4)/ float(EvenTrials)
-print("The empirical probability that the number of flips is 4 conditional on number of flips being even is " + repr(solution2) + ".")
+print("The empirical probability that the number of flips is 4 conditional on number of flips being even is " + repr(Answer2) + ".")
     
 print "\nPart 2\n"
 

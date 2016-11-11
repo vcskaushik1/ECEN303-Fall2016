@@ -13,7 +13,6 @@ import random
 import math
 import matplotlib.pyplot as plt
 
-
 def biasedcoinflip(p=0.5):
     """
     This method returns a one with probability p and it returns a zero with

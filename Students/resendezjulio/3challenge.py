@@ -1,7 +1,7 @@
-__author__ = ""  # EDIT
-__NetID__ = ""  # EDIT
-__GitHubID__ = ""  # EDIT
-__SelfGrade__ = ""  # EDIT
+__author__ = "Julio Resendez"  
+__NetID__ = "resendezjulio"  
+__GitHubID__ = "resendezjulio"  
+__SelfGrade__ = "5" 
 __Challenge__ = "3"
 
 """
@@ -73,10 +73,10 @@ plt.xticks(XticksIndex, OutcomeIndex2)
 plt.show()
 
 # Question 1: What is the mean of experiment()?
-# Answer 1: EDIT
+# Answer 1: 4
 
 # Question 2: What is the type of experiment()?
-# Answer 2: EDIT
+# Answer 2: Poisson(Fish)
 
 # Question 3: Do the two distributions match?
 # Answer 3: EDIT

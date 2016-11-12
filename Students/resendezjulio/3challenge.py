@@ -38,8 +38,12 @@ def binomialflips(n=1, p=0.5):
 
 
 def poisson(parameterpoisson=10):
-    delta = 0;
-    k = 0;
+    delta = 0
+    k = 0
+    total = 0
+    while ( total < random.random()):
+        total += pow(parameterpoisson,k)*math.exp(-1*parameterpoisson)/math.factorial(k)
+        k += 1
 
 
 def experiment(parameterpoisson=10, p=0.5):
@@ -78,5 +82,5 @@ plt.show()
 # Answer 2: Poisson
 
 # Question 3: Do the two distributions match?
-# Answer 3: Yes
+# Answer 3: Yes both distributions match.
 

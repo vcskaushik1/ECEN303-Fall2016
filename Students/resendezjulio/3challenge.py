@@ -38,9 +38,8 @@ def binomialflips(n=1, p=0.5):
 
 
 def poisson(parameterpoisson=10):
-    #
-    # EDIT
-    #
+    delta = 0;
+    k = 0;
 
 
 def experiment(parameterpoisson=10, p=0.5):
@@ -76,8 +75,8 @@ plt.show()
 # Answer 1: 4
 
 # Question 2: What is the type of experiment()?
-# Answer 2: Poisson(Fish)
+# Answer 2: Poisson
 
 # Question 3: Do the two distributions match?
-# Answer 3: EDIT
+# Answer 3: Yes
 

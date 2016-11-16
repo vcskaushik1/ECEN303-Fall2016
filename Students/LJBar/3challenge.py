@@ -85,5 +85,5 @@ plt.show()
 # Answer 2: Poisson
 
 # Question 3: Do the two distributions match?
-# Answer 3: EDIT
+# Answer 3: Yes
 

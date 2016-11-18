@@ -38,9 +38,10 @@ def binomialflips(n=1, p=0.5):
 
 
 def poisson(parameterpoisson=10):
-	r = random.random()
 	psn = 0
 	k = 0
+	r = random.random()
+	
 	while psn < r:
 		psn = pow(parameterpoisson,k) * math.exp(-1 * parameterpoisson) / math.factorial(k) + psn
 		k = k + 1

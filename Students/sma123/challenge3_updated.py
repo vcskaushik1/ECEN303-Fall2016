@@ -33,8 +33,6 @@ def binomialflips(n=1, p=0.5):
         numberones += biasedcoinflip(p)
     return numberones
 
-
-
 def poisson(parameterpoisson=10):
     k = 0
     sum = 0

@@ -1,7 +1,7 @@
-__author__ = ""  # EDIT
-__NetID__ = ""  # EDIT
-__GitHubID__ = ""  # EDIT
-__SelfGrade__ = ""  # EDIT
+__author__ = "Rigoberto Rodriguez"
+__NetID__ =  "422008292"
+__GitHubID__ = " rigorodriguez95"
+__SelfGrade__ = "5"
 __Challenge__ = "3"
 
 """
@@ -38,9 +38,18 @@ def binomialflips(n=1, p=0.5):
 
 
 def poisson(parameterpoisson=10):
-    #
-    # EDIT
-    #
+    y = parameterpoisson  # y is my lambda"""
+    k = 0  #"""from summation"""
+
+    i = 0
+
+    while (i < random.random()):
+        z= math.exp(-1*y)  #""" e^(-y)"""
+        x= pow(y,k) #"""   lambda raised to the k power"""
+        f = math.factorial(k) #""" k! factorial"""
+        i += x*z/f # (y^k*e^-y)/(k!)
+        k = k + 1
+    return k - 1
 
 
 def experiment(parameterpoisson=10, p=0.5):
@@ -73,11 +82,10 @@ plt.xticks(XticksIndex, OutcomeIndex2)
 plt.show()
 
 # Question 1: What is the mean of experiment()?
-# Answer 1: EDIT
+# Answer 1: 3.98
 
 # Question 2: What is the type of experiment()?
-# Answer 2: EDIT
+# Answer 2: Poisson Random Variables
 
 # Question 3: Do the two distributions match?
-# Answer 3: EDIT
-
+# Answer 3: yes

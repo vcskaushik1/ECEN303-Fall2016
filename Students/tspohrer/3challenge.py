@@ -1,7 +1,7 @@
-__author__ = ""  # EDIT
-__NetID__ = ""  # EDIT
-__GitHubID__ = ""  # EDIT
-__SelfGrade__ = ""  # EDIT
+__author__ = "Trevor Spohrer"
+__NetID__ = "tspohrer"
+__GitHubID__ = "tspohrer"
+__SelfGrade__ = "5/5"
 __Challenge__ = "3"
 
 """
@@ -14,6 +14,7 @@ Maximum Grade: 5
 import random
 import math
 import matplotlib.pyplot as plt
+
 
 
 def biasedcoinflip(p=0.5):
@@ -37,24 +38,26 @@ def binomialflips(n=1, p=0.5):
     return numberones
 
 
-def poisson(parameterpoisson=10):
-    #
-    # EDIT
-    #
+def poisson(parameterpoisson=10): "with k=0 the poisson formula will reduce down to e^(-lamda)"
+    p=1
+    k=0
+   e=math.exp(-parameterpoisson)
+    while (e < p):
+        k +=1
+        p = p*random.random()
+    return k-1
 
 
 def experiment(parameterpoisson=10, p=0.5):
     return binomialflips(poisson(parameterpoisson), p)
-    # return poisson(binomialflips(parameterpoisson3, p))
-
-
+    return poisson(binomialflips(parameterpoisson, p))
 ParameterPoisson = 10
 NumberTrials = 100000
 TrialSequence = []
 
 for TrialIndex1 in range(0, NumberTrials):
     TrialSequence.append(experiment(ParameterPoisson))
-print sum(TrialSequence)/len(TrialSequence)
+print (sum(TrialSequence)/len(TrialSequence))
 
 Distribution = []
 for OutcomeIndex1 in range(0, 21):
@@ -73,11 +76,12 @@ plt.xticks(XticksIndex, OutcomeIndex2)
 plt.show()
 
 # Question 1: What is the mean of experiment()?
-# Answer 1: EDIT
+# Answer 1: 5
 
 # Question 2: What is the type of experiment()?
-# Answer 2: EDIT
+# Answer 2: A Poisson experiment
 
 # Question 3: Do the two distributions match?
-# Answer 3: EDIT
+# Answer 3: Yes they do.
+
 

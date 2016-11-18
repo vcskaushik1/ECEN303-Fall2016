@@ -1,7 +1,7 @@
-__author__ = ""  # EDIT
-__NetID__ = ""  # EDIT
-__GitHubID__ = ""  # EDIT
-__SelfGrade__ = ""  # EDIT
+__author__ = "Sergio Pineda"  # EDIT
+__NetID__ = "123004451"  # EDIT
+__GitHubID__ = "sebastianpineda"  # EDIT
+__SelfGrade__ = "5"  # EDIT
 __Challenge__ = "3"
 
 """
@@ -38,14 +38,17 @@ def binomialflips(n=1, p=0.5):
 
 
 def poisson(parameterpoisson=10):
-    #
-    # EDIT
-    #
-
+	r = random.random()
+	psn = 0
+	k = 0
+	while psn < r:
+		psn = pow(parameterpoisson,k) * math.exp(-1 * parameterpoisson) / math.factorial(k) + psn
+		k = k + 1
+	return k-1
 
 def experiment(parameterpoisson=10, p=0.5):
     return binomialflips(poisson(parameterpoisson), p)
-    # return poisson(binomialflips(parameterpoisson3, p))
+    #return poisson(binomialflips(parameterpoisson, p))
 
 
 ParameterPoisson = 10
@@ -73,11 +76,10 @@ plt.xticks(XticksIndex, OutcomeIndex2)
 plt.show()
 
 # Question 1: What is the mean of experiment()?
-# Answer 1: EDIT
+# Answer 1: 5
 
 # Question 2: What is the type of experiment()?
-# Answer 2: EDIT
+# Answer 2: Poisson distribution
 
 # Question 3: Do the two distributions match?
-# Answer 3: EDIT
-
+# Answer 3: Yes, but they are scaled differently

@@ -38,6 +38,7 @@ def binomialflips(n=1, p=0.5):
 
 def poisson(parameterpoisson=10):
 
+    "(landa^k e^-lambda)/k! but since k = 0 formula reduces to e^-lambda"
     k=0
     p=1
     e=math.exp(-parameterpoisson)

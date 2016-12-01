@@ -1,7 +1,7 @@
-__author__ = ""  # EDIT
-__NetID__ = ""  # EDIT
-__GitHubID__ = ""  # EDIT
-__SelfGrade__ = ""  # EDIT
+__author__ = "Gregory A Jordan"
+__NetID__ = "gjordan"
+__GitHubID__ = "slab-bulkhead"
+__SelfGrade__ = "5"
 __Challenge__ = "3"
 
 """
@@ -36,11 +36,15 @@ def binomialflips(n=1, p=0.5):
         numberones += biasedcoinflip(p)
     return numberones
 
-
+# poisson probability is (e^(-lambda))(lambda^k)/k!
 def poisson(parameterpoisson=10):
-    #
-    # EDIT
-    #
+    encabulator = 0
+    lmbda = parameterpoisson  # lambda is keyword, using lmbda variable name
+    k = 0
+    while (encabulator < random.random()):
+        encabulator += math.exp(lmbda*(-1))*pow(lmbda,k)/math.factorial(k)  # poisson probability
+        k += 1
+    return k - 1
 
 
 def experiment(parameterpoisson=10, p=0.5):
@@ -48,7 +52,7 @@ def experiment(parameterpoisson=10, p=0.5):
     # return poisson(binomialflips(parameterpoisson3, p))
 
 
-ParameterPoisson = 10
+ParameterPoisson = 10  # change this value to change the number of occurrences
 NumberTrials = 100000
 TrialSequence = []
 
@@ -73,11 +77,10 @@ plt.xticks(XticksIndex, OutcomeIndex2)
 plt.show()
 
 # Question 1: What is the mean of experiment()?
-# Answer 1: EDIT
+# Answer 1: roughly 4 (~3.9 +/- 0.1)
 
 # Question 2: What is the type of experiment()?
-# Answer 2: EDIT
+# Answer 2: Poisson distribution
 
 # Question 3: Do the two distributions match?
-# Answer 3: EDIT
-
+# Answer 3: There is only one distribution

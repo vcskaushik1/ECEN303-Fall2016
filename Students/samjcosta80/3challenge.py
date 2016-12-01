@@ -1,7 +1,7 @@
-__author__ = ""  # EDIT
-__NetID__ = ""  # EDIT
-__GitHubID__ = ""  # EDIT
-__SelfGrade__ = ""  # EDIT
+__author__ = ""  # sam costa
+__NetID__ = ""  # samjcosta80
+__GitHubID__ = ""  # samjcosta80
+__SelfGrade__ = ""  # 5
 __Challenge__ = "3"
 
 """
@@ -38,9 +38,16 @@ def binomialflips(n=1, p=0.5):
 
 
 def poisson(parameterpoisson=10):
-    #
-    # EDIT
-    #
+   
+    #parameterpoisson is the lambda
+    k=0
+    lambda= parameterpoisson
+    EXP= math.exp(-L)
+    p=1.0
+    while (p>E)
+        k=k+1
+        p=p*random.random()   
+    return k-1
 
 
 def experiment(parameterpoisson=10, p=0.5):
@@ -73,11 +80,11 @@ plt.xticks(XticksIndex, OutcomeIndex2)
 plt.show()
 
 # Question 1: What is the mean of experiment()?
-# Answer 1: EDIT
+# Answer 1: approximatley 5
 
 # Question 2: What is the type of experiment()?
-# Answer 2: EDIT
+# Answer 2: poisson
 
 # Question 3: Do the two distributions match?
-# Answer 3: EDIT
+# Answer 3: yes
 

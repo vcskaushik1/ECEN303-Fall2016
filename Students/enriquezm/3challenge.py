@@ -1,7 +1,7 @@
-__author__ = ""  # EDIT
-__NetID__ = ""  # EDIT
-__GitHubID__ = ""  # EDIT
-__SelfGrade__ = ""  # EDIT
+__author__ = "Melanie Enriquez"  
+__NetID__ = "enriquezm"  
+__GitHubID__ = "enriquezm"  
+__SelfGrade__ = "5"  
 __Challenge__ = "3"
 
 """
@@ -38,13 +38,17 @@ def binomialflips(n=1, p=0.5):
 
 
 def poisson(parameterpoisson=10):
-    #
-    # EDIT
-    #
+    k = 0
+    pmf = 0
+    constraint = random.random()
+    while (pmf < constraint):
+        pmf += (pow(parameterpoisson, k)/math.factorial(k))*(math.exp(-1*parameterpoisson))
+        k += 1
+    return k-1
 
 
-def experiment(parameterpoisson=10, p=0.5):
-    return binomialflips(poisson(parameterpoisson), p)
+def experiment3(parameterpoisson3=10, p=0.5):
+    return binomialflips(poisson(parameterpoisson3), p)
     # return poisson(binomialflips(parameterpoisson3, p))
 
 
@@ -53,7 +57,7 @@ NumberTrials = 100000
 TrialSequence = []
 
 for TrialIndex1 in range(0, NumberTrials):
-    TrialSequence.append(experiment(ParameterPoisson))
+    TrialSequence.append(experiment3(ParameterPoisson))
 print sum(TrialSequence)/len(TrialSequence)
 
 Distribution = []
@@ -73,11 +77,11 @@ plt.xticks(XticksIndex, OutcomeIndex2)
 plt.show()
 
 # Question 1: What is the mean of experiment()?
-# Answer 1: EDIT
+# Answer 1: 5
 
 # Question 2: What is the type of experiment()?
-# Answer 2: EDIT
+# Answer 2: A poisson value is returned.
 
 # Question 3: Do the two distributions match?
-# Answer 3: EDIT
+# Answer 3: No, despite similarities.
 

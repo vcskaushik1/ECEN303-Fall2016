@@ -1,7 +1,7 @@
-__author__ = ""  # EDIT
-__NetID__ = ""  # EDIT
-__GitHubID__ = ""  # EDIT
-__SelfGrade__ = ""  # EDIT
+__author__ = "Jacob Geller"  # EDIT
+__NetID__ = "coby.geller"  # EDIT
+__GitHubID__ = "cobygeller"  # EDIT
+__SelfGrade__ = "what is this?"  # EDIT
 __Challenge__ = "3"
 
 """
@@ -38,9 +38,17 @@ def binomialflips(n=1, p=0.5):
 
 
 def poisson(parameterpoisson=10):
-    #
-    # EDIT
-    #
+
+    X= 0
+    lam=parameterpoisson
+    P=math.exp(-lam)
+    S=P
+    while(random.random>S):
+        X+=1
+        P=P*(lam/X)
+        S=S+P
+
+    return X
 
 
 def experiment(parameterpoisson=10, p=0.5):
@@ -73,11 +81,10 @@ plt.xticks(XticksIndex, OutcomeIndex2)
 plt.show()
 
 # Question 1: What is the mean of experiment()?
-# Answer 1: EDIT
+# Answer 1: The teoretical mean is 5 and the given mean is 4.995....
 
 # Question 2: What is the type of experiment()?
-# Answer 2: EDIT
+# Answer 2: This is a poisson random variable
 
 # Question 3: Do the two distributions match?
-# Answer 3: EDIT
-
+# Answer 3: yes they do, not 100% but still very close

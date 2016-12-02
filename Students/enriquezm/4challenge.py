@@ -3,13 +3,13 @@ import math
 import numpy
 import pylab
 
-__author__ = ""  # EDIT
-__NetID__ = ""  # EDIT
-__GitHubID__ = ""  # EDIT
-__SelfGrade__ = ""  # EDIT
-__Answer1__ = ""
+__author__ = "Melanie Enriquez"  # EDIT
+__NetID__ = "enriquezm"  # EDIT
+__GitHubID__ = "enriquezm"  # EDIT
+__SelfGrade__ = "4"  # EDIT
+__Answer1__ = "Gaussian"
 __Answer2__ = ""
-__Answer3__ = ""
+__Answer3__ = "Gaussian"
 __Answer4__ = ""
 __Challenge__ = "4"
 
@@ -56,9 +56,11 @@ for trial in range(0, TrialNumber):
 
 numBins = 100 #number of evenly sized bins for histogram
 plt.hist(Unkown1, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.show()
+plt.clf()
 numBins = 100 #number of evenly sized bins for histogram
 plt.hist(Unkown2, numBins, normed=1, facecolor='green', alpha=0.75)
-
+plt.show()
 
 '''
 1. What is the type of random variable Unkown1?

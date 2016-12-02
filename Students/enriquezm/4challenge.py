@@ -20,22 +20,29 @@ for trial in range(0, TrialNumber):
 
 numBins = #number of evenly sized bins for histogram
 plt.hist(Uvariable, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.show()
 
-
+def g(x):
+return -1.0*math.log(1.0-x)
+variable = []
 #Make sure to define the function 'g'
 for trial in range(0, len(Uvariable)):
 	Vvariable.append(g(Uvariable[trial]))
 
-numBins = #number of evenly sized bins for histogram
+numBins = 100 #number of evenly sized bins for histogram
 plt.hist(Vvariable, numBins, normed=1, facecolor='green', alpha=0.75)
-
+plt.show()
+Wvariable = []
+def h(x):
+return math.sqrt( -2.0*(math.log(1.0-x)) )
 #Make sure to define the function 'h'
 for trial in range(0, len(Uvariable)):
 	Wvariable.append(h(Uvariable[trial]))
 
 
-numBins = #number of evenly sized bins for histogram
+numBins = 100 #number of evenly sized bins for histogram
 plt.hist(Wvariable, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.show()
 
 
 Uknown1 = []
@@ -47,9 +54,9 @@ for trial in range(0, TrialNumber):
     Unkown2.append(math.sqrt(- 2 * math.ln(Uvariable1) * math.cos(2 * math.PI * Uvariable2)))
 
 
-numBins = #number of evenly sized bins for histogram
+numBins = 100 #number of evenly sized bins for histogram
 plt.hist(Unkown1, numBins, normed=1, facecolor='green', alpha=0.75)
-numBins = #number of evenly sized bins for histogram
+numBins = 100 #number of evenly sized bins for histogram
 plt.hist(Unkown2, numBins, normed=1, facecolor='green', alpha=0.75)
 
 

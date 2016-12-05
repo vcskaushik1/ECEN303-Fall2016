@@ -9,10 +9,10 @@ __author__ = "Simmi Mani"  # EDIT
 __NetID__ = "simmi.mani123"  # EDIT
 __GitHubID__ = "sma123"  # EDIT
 __SelfGrade__ = "4"  # EDIT
-__Answer1__ = "Rayleigh"
-__Answer2__ = "Mean = .95, Variance = .35"
-__Answer3__ = "Rayleigh"
-__Answer4__ = "Mean = .95, Variance = .35"
+__Answer1__ = "Gaussian"
+__Answer2__ = "Mean = .428, Variance = .35"
+__Answer3__ = "Gaussian"
+__Answer4__ = "Mean = .428, Variance = .35"
 __Challenge__ = "4"
 
 TrialNumber = 10000
@@ -52,8 +52,8 @@ Unkown2 = []
 for trial in range(0, TrialNumber):
     Uvariable1 = random.random()
     Uvariable2 = random.random()
-    Unkown1.append(math.sqrt(abs(- 2 * math.log(Uvariable1) * math.cos(2 * math.pi * Uvariable2))))
-    Unkown2.append(math.sqrt(abs(- 2 * math.log(Uvariable1) * math.cos(2 * math.pi * Uvariable2))))
+    Unkown1.append(math.sqrt(-2 * math.log(Uvariable1)) * math.cos(2 * math.pi * Uvariable2))
+    Unkown2.append(math.sqrt(- 2 * math.log(Uvariable1)) * math.cos(2 * math.pi * Uvariable2))
 
 
 numBins = 100 #number of evenly sized bins for histogram

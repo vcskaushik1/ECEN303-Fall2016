@@ -6,7 +6,7 @@ import pylab
 __author__ = "Rebecca Sontheimer"  # EDIT
 __NetID__ = "sont89"  # EDIT
 __GitHubID__ = "sont89"  # EDIT
-__SelfGrade__ = ""  # EDIT
+__SelfGrade__ = "4/5"  # EDIT
 __Answer1__ = "Gaussian"
 __Answer2__ = "1, 1"
 __Answer3__ = "Gaussian"

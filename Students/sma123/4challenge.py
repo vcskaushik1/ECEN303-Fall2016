@@ -68,7 +68,7 @@ plt.show()
 
 '''
 1. What is the type of random variable Unkown1? Gaussian
-2. What is its mean and variance? Mean = 1, Variance = 1
+2. What is its mean and variance? Mean = .428, Variance = 1
 3. What is the type of random variable Unkown2? Gaussian
-4. What is its mean and variance? Mean = 1, Variance = 1
+4. What is its mean and variance? Mean = .428, Variance = 1
 '''

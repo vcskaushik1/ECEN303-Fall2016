@@ -2,15 +2,16 @@ import random
 import math
 import numpy
 import pylab
+import matplotlib.pyplot as plt
 
 __author__ = "Juan Gomez"
 __NetID__ = "juanigomez"
 __GitHubID__ = "juanigomez95"
-__SelfGrade__ = "4"
+__SelfGrade__ = "5"
 __Answer1__ = "Gaussian"
-__Answer2__ = ""
+__Answer2__ = "Mean 1 Variance 1"
 __Answer3__ = "Gaussian"
-__Answer4__ = ""
+__Answer4__ = "Mean 1 Variance 1"
 __Challenge__ = "4"
 
 TrialNumber = 10000
@@ -20,7 +21,7 @@ for trial in range(0, TrialNumber):
 
 numBins = 100
 plt.hist(Uvariable, numBins, normed=1, facecolor='green', alpha=0.75)
-
+plt.show()
 
 def g(x):
         return -1.0*math.log(1.0-x)
@@ -28,8 +29,9 @@ Vvariable = []
 for trial in range(0, len(Uvariable)):
 	Vvariable.append(g(Uvariable[trial]))
 
-numBins = 2
+numBins = 100
 plt.hist(Vvariable, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.show()
 
 def h(x):
     return math.sqrt(-2.0*math.log(1.0-x))
@@ -40,21 +42,23 @@ for trial in range(0, len(Uvariable)):
 
 numBins = 100
 plt.hist(Wvariable, numBins, normed=1, facecolor='green', alpha=0.75)
-
+plt.show()
 
 Uknown1 = []
 Uknown2 = []
 for trial in range(0, TrialNumber):
     Uvariable1 = random.random()
     Uvariable2 = random.random()
-    Unkown1.append(math.sqrt(- 2 * math.ln(Uvariable1) * math.cos(2 * math.PI * Uvariable2)))
-    Unkown2.append(math.sqrt(- 2 * math.ln(Uvariable1) * math.cos(2 * math.PI * Uvariable2)))
+    Uknown1.append(math.sqrt(- 2 * np.log(Uvariable1) * math.cos(2 * math.pi * Uvariable2)))
+    Uknown2.append(math.sqrt(- 2 * np.log(Uvariable1) * math.cos(2 * math.pi * Uvariable2)))
 
 
 numBins = 100
-plt.hist(Unkown1, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.hist(Uknown1, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.show
 numBins = 100
-plt.hist(Unkown2, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.hist(Uknown2, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.show
 
 
 '''

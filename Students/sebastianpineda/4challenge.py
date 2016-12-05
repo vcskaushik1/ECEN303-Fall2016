@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 __author__ = "Sergio Pineda"
 __NetID__ = "123004451"
 __GitHubID__ = "sebastianpineda"
-__SelfGrade__ = "4.5?"  # Parts of this template shouldn't normally compile, and some parts output complex values that can't be plotted.
+__SelfGrade__ = "5?"  # Parts of this template shouldn't normally compile, and some parts output complex values that can't be plotted.
 __Answer1__ = "Gaussian"
 __Answer2__ = "1 and 1"
 __Answer3__ = "Gaussian"

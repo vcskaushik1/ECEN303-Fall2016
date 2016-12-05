@@ -8,9 +8,9 @@ __NetID__ = "enriquezm"  # EDIT
 __GitHubID__ = "enriquezm"  # EDIT
 __SelfGrade__ = "4"  # EDIT
 __Answer1__ = "Gaussian"
-__Answer2__ = ""
+__Answer2__ = "Mean and Variance =1"
 __Answer3__ = "Gaussian"
-__Answer4__ = ""
+__Answer4__ = "Mean and Variance equal 1"
 __Challenge__ = "4"
 
 TrialNumber = 10000
@@ -18,13 +18,13 @@ Uvariable = []
 for trial in range(0, TrialNumber):
 	Uvariable.append(random.random())
 
-numBins = #number of evenly sized bins for histogram
+numBins = 100 #number of evenly sized bins for histogram
 plt.hist(Uvariable, numBins, normed=1, facecolor='green', alpha=0.75)
 plt.show()
 
 def g(x):
 return -1.0*math.log(1.0-x)
-variable = []
+Vvariable = []
 #Make sure to define the function 'g'
 for trial in range(0, len(Uvariable)):
 	Vvariable.append(g(Uvariable[trial]))

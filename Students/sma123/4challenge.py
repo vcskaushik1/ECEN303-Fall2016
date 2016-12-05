@@ -9,10 +9,10 @@ __author__ = "Simmi Mani"  # EDIT
 __NetID__ = "simmi.mani123"  # EDIT
 __GitHubID__ = "sma123"  # EDIT
 __SelfGrade__ = "4"  # EDIT
-__Answer1__ = "Gaussian"
-__Answer2__ = "Mean = 1, Variance = 1"
-__Answer3__ = "Gaussian"
-__Answer4__ = "Mean = 1, Variance = 1"
+__Answer1__ = "Rayleigh"
+__Answer2__ = "Mean = .95, Variance = .35"
+__Answer3__ = "Rayleigh"
+__Answer4__ = "Mean = .95, Variance = .35"
 __Challenge__ = "4"
 
 TrialNumber = 10000

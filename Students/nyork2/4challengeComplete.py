@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 __author__ = "Nicholas York"  # EDIT
 __NetID__ = "nyork2"  # EDIT
 __GitHubID__ = "nyork2"  # EDIT
-__SelfGrade__ = "4"  # EDIT
+__SelfGrade__ = "5"  # EDIT
 __Answer1__ = "Gaussian"
 __Answer2__ = "Mean = 1.0; Variance = 1.0"
 __Answer3__ = "Gaussian"

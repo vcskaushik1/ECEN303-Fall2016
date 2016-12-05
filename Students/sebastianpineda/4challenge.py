@@ -9,9 +9,9 @@ __author__ = "Sergio Pineda"
 __NetID__ = "123004451"
 __GitHubID__ = "sebastianpineda"
 __SelfGrade__ = "4.5?"  # Parts of this template shouldn't normally compile, and some parts output complex values that can't be plotted.
-__Answer1__ = "Rayleigh"
+__Answer1__ = "Gaussian"
 __Answer2__ = "1 and 1"
-__Answer3__ = "Rayleigh"
+__Answer3__ = "Gaussian"
 __Answer4__ = "1 and 1"
 __Challenge__ = "4"
 
@@ -66,8 +66,8 @@ plt.show()
 
 
 '''
-1. What is the type of random variable Unknown1? Rayleigh
+1. What is the type of random variable Unknown1? Gaussian
 2. What is its mean and variance? 1 and 1
-3. What is the type of random variable Unknown2? Rayleigh. Both functions are identical?
+3. What is the type of random variable Unknown2? Gaussian. Both functions are identical?
 4. What is its mean and variance? 1 and 1
 '''

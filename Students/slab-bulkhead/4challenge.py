@@ -1,61 +1,84 @@
 import random
 import math
 import numpy
-import pylab
+# import pylab #  pylab not needed, commented out
+import matplotlib.pyplot
 
-__author__ = ""  # EDIT
-__NetID__ = ""  # EDIT
-__GitHubID__ = ""  # EDIT
-__SelfGrade__ = ""  # EDIT
-__Answer1__ = ""
-__Answer2__ = ""
-__Answer3__ = ""
-__Answer4__ = ""
+__author__ = "Gregory A Jordan"
+__NetID__ = "gjordan"
+__GitHubID__ = "slab-bulkhead"
+__SelfGrade__ = "5"
+__Answer1__ = "Gaussian distribution"
+__Answer2__ = "mean ~0, variance ~1"
+__Answer3__ = "Gaussian distribution"
+__Answer4__ = "mean ~0, variance ~1"
 __Challenge__ = "4"
 
 TrialNumber = 10000
+
+# Uniform distribution
 Uvariable = []
 for trial in range(0, TrialNumber):
 	Uvariable.append(random.random())
 
-numBins = #number of evenly sized bins for histogram
-plt.hist(Uvariable, numBins, normed=1, facecolor='green', alpha=0.75)
+numBins = 100  #number of evenly sized bins for histogram
+# numBins 100 from recitation advice
+matplotlib.pyplot.hist(Uvariable, numBins, normed=1, facecolor='green', alpha=0.75)
+matplotlib.pyplot.show()
 
-
-#Make sure to define the function 'g'
+# Exponential distribution
+Vvariable = []
+def g(x):  #Make sure to define the function 'g'
+    return -1.0*math.log(1.0 - x)
 for trial in range(0, len(Uvariable)):
 	Vvariable.append(g(Uvariable[trial]))
 
-numBins = #number of evenly sized bins for histogram
-plt.hist(Vvariable, numBins, normed=1, facecolor='green', alpha=0.75)
+numBins = 100  #number of evenly sized bins for histogram
+# numBins 100 from recitation advice
+matplotlib.pyplot.hist(Vvariable, numBins, normed=1, facecolor='green', alpha=0.75)
+matplotlib.pyplot.show()
 
-#Make sure to define the function 'h'
+# Rayleigh distribution
+def h(x):  #Make sure to define the function 'h'
+    return math.sqrt(-2.0*math.log(1.0 - x))
 for trial in range(0, len(Uvariable)):
-	Wvariable.append(h(Uvariable[trial]))
+	Vvariable.append(h(Uvariable[trial]))
 
 
-numBins = #number of evenly sized bins for histogram
-plt.hist(Wvariable, numBins, normed=1, facecolor='green', alpha=0.75)
+numBins = 100  #number of evenly sized bins for histogram
+# numBins 100 from recitation advice
+matplotlib.pyplot.hist(Vvariable, numBins, normed=1, facecolor='green', alpha=0.75)
+matplotlib.pyplot.show()
 
-
-Uknown1 = []
-Uknown2 = []
+# Gaussian distributions
+# corrected numerous typos
+Unknown1 = []
+Unknown2 = []
 for trial in range(0, TrialNumber):
     Uvariable1 = random.random()
     Uvariable2 = random.random()
-    Unkown1.append(math.sqrt(- 2 * math.ln(Uvariable1) * math.cos(2 * math.PI * Uvariable2)))
-    Unkown2.append(math.sqrt(- 2 * math.ln(Uvariable1) * math.cos(2 * math.PI * Uvariable2)))
+    Unknown1.append(math.sqrt(-2.0*math.log(Uvariable1))*math.cos(2.0*math.pi*Uvariable2))
+    Unknown2.append(math.sqrt(-2.0*math.log(Uvariable1))*math.sin(2.0*math.pi*Uvariable2))
 
 
-numBins = #number of evenly sized bins for histogram
-plt.hist(Unkown1, numBins, normed=1, facecolor='green', alpha=0.75)
-numBins = #number of evenly sized bins for histogram
-plt.hist(Unkown2, numBins, normed=1, facecolor='green', alpha=0.75)
+numBins = 100  # number of evenly sized bins for histogram
+# numBins 100 from recitation advice
+matplotlib.pyplot.hist(Unknown1, numBins, normed=1, facecolor='green', alpha=0.75)
+matplotlib.pyplot.show()
+numBins = 100  # number of evenly sized bins for histogram
+# numBins 100 from recitation advice
+matplotlib.pyplot.hist(Unknown2, numBins, normed=1, facecolor='green', alpha=0.75)
+matplotlib.pyplot.show()
+
+print numpy.mean(Unknown1)
+print numpy.var(Unknown1)
+print numpy.mean(Unknown2)
+print numpy.var(Unknown2)
 
 
 '''
-1. What is the type of random variable Unkown1?
+1. What is the type of random variable Unknown1?
 2. What is its mean and variance?
-3. What is the type of random variable Unkown2?
+3. What is the type of random variable Unknown2?
 4. What is its mean and variance?
 '''

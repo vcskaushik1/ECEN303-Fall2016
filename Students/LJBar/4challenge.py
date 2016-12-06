@@ -7,9 +7,9 @@ __author__ = "" Lucky Jay Barut
 __NetID__ = ""  lazerjay95
 __GitHubID__ = ""  LJBar
 __SelfGrade__ = ""  # EDIT
-__Answer1__ = ""
+__Answer1__ = "Gaussian"
 __Answer2__ = ""
-__Answer3__ = ""
+__Answer3__ = "Gaussian"
 __Answer4__ = ""
 __Challenge__ = "4"
 

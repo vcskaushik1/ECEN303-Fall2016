@@ -53,14 +53,14 @@ Unknown2 = []
 for trial in range(0, TrialNumber):
     Uvariable1 = random.random()
     Uvariable2 = random.random()
-    Unkown1.append(math.sqrt(- 2 * math.ln(Uvariable1) * math.cos(2 * math.PI * Uvariable2)))
-    Unkown2.append(math.sqrt(- 2 * math.ln(Uvariable1) * math.sin(2 * math.PI * Uvariable2)))
+    Unknown1.append(math.sqrt(- 2 * math.ln(Uvariable1) * math.cos(2 * math.PI * Uvariable2)))
+    Unknown2.append(math.sqrt(- 2 * math.ln(Uvariable1) * math.sin(2 * math.PI * Uvariable2)))
 
 
 numBins = 100#number of evenly sized bins for histogram
-plt.hist(Unkown1, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.hist(Unknown1, numBins, normed=1, facecolor='green', alpha=0.75)
 numBins = 100#number of evenly sized bins for histogram
-plt.hist(Unkown2, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.hist(Unknown2, numBins, normed=1, facecolor='green', alpha=0.75)
 plt.show()
 
 '''

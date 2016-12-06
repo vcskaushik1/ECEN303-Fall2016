@@ -35,7 +35,7 @@ plt.hist(Vvariable, numBins, normed=1, facecolor='green', alpha=0.75)
 plt.show()
 
 #Make sure to define the function 'h'
-def h(X)
+def h(X):
 	return math.sqrt(-2.0*(math.log(1.0-X)))
 for trial in range(0, len(Uvariable)):
 	Wvariable.append(h(Uvariable[trial]))

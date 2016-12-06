@@ -8,11 +8,11 @@ import matplotlib.pyplot as plt
 __author__ = "Simmi Mani"  # EDIT
 __NetID__ = "simmi.mani123"  # EDIT
 __GitHubID__ = "sma123"  # EDIT
-__SelfGrade__ = "4"  # EDIT
+__SelfGrade__ = "5"  # EDIT
 __Answer1__ = "Gaussian"
-__Answer2__ = "Mean = 1, Variance = 1"
+__Answer2__ = "Mean = 0.01225, Variance = 1.0015"
 __Answer3__ = "Gaussian"
-__Answer4__ = "Mean = 1, Variance = 1"
+__Answer4__ = "Mean = 0.01225, Variance = 1.0015"
 __Challenge__ = "4"
 
 TrialNumber = 10000
@@ -52,8 +52,8 @@ Unkown2 = []
 for trial in range(0, TrialNumber):
     Uvariable1 = random.random()
     Uvariable2 = random.random()
-    Unkown1.append(math.sqrt(abs(- 2 * math.log(Uvariable1) * math.cos(2 * math.pi * Uvariable2))))
-    Unkown2.append(math.sqrt(abs(- 2 * math.log(Uvariable1) * math.cos(2 * math.pi * Uvariable2))))
+    Unkown1.append(math.sqrt(-2 * math.log(Uvariable1)) * math.cos(2 * math.pi * Uvariable2))
+    Unkown2.append(math.sqrt(- 2 * math.log(Uvariable1)) * math.cos(2 * math.pi * Uvariable2))
 
 
 numBins = 100 #number of evenly sized bins for histogram
@@ -68,7 +68,7 @@ plt.show()
 
 '''
 1. What is the type of random variable Unkown1? Gaussian
-2. What is its mean and variance? Mean = 1, Variance = 1
+2. What is its mean and variance? Mean = 0.01225, Variance = 1.0015
 3. What is the type of random variable Unkown2? Gaussian
-4. What is its mean and variance? Mean = 1, Variance = 1
+4. What is its mean and variance? Mean = 0.01225, Variance = 1.0015
 '''

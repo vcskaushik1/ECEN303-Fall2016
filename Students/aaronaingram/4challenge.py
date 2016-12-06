@@ -3,14 +3,14 @@ import math
 import numpy
 import pylab
 
-__author__ = ""  # EDIT
-__NetID__ = ""  # EDIT
-__GitHubID__ = ""  # EDIT
-__SelfGrade__ = ""  # EDIT
-__Answer1__ = ""
-__Answer2__ = ""
-__Answer3__ = ""
-__Answer4__ = ""
+__author__ = "Aaron Ingram"  # EDIT
+__NetID__ = "aaronaingram"  # EDIT
+__GitHubID__ = "aaronaingram"  # EDIT
+__SelfGrade__ = "5"  # EDIT
+__Answer1__ = "Gaussian"
+__Answer2__ = "mean=1,var=1"
+__Answer3__ = "Gaussian"
+__Answer4__ = "mean=1,var=1"
 __Challenge__ = "4"
 
 TrialNumber = 10000
@@ -18,23 +18,36 @@ Uvariable = []
 for trial in range(0, TrialNumber):
 	Uvariable.append(random.random())
 
-numBins = #number of evenly sized bins for histogram
+numBins = 100#number of evenly sized bins for histogram
 plt.hist(Uvariable, numBins, normed=1, facecolor='green', alpha=0.75)
-
+plt.show()
 
 #Make sure to define the function 'g'
+
+def g(x):
+    return -1.0 + math.log(1.0-x)
+
+Vvariable = []
+
+
 for trial in range(0, len(Uvariable)):
 	Vvariable.append(g(Uvariable[trial]))
 
-numBins = #number of evenly sized bins for histogram
+numBins = 100#number of evenly sized bins for histogram
 plt.hist(Vvariable, numBins, normed=1, facecolor='green', alpha=0.75)
-
+plt.show()
+Wvariable = []
 #Make sure to define the function 'h'
+
+def h(x):
+    return math.sqrt(-2.0*(math.log(1.0-x)))
+	
+	
 for trial in range(0, len(Uvariable)):
 	Wvariable.append(h(Uvariable[trial]))
 
 
-numBins = #number of evenly sized bins for histogram
+numBins = 100#number of evenly sized bins for histogram
 plt.hist(Wvariable, numBins, normed=1, facecolor='green', alpha=0.75)
 
 
@@ -47,11 +60,11 @@ for trial in range(0, TrialNumber):
     Unkown2.append(math.sqrt(- 2 * math.ln(Uvariable1) * math.cos(2 * math.PI * Uvariable2)))
 
 
-numBins = #number of evenly sized bins for histogram
+numBins = 100#number of evenly sized bins for histogram
 plt.hist(Unkown1, numBins, normed=1, facecolor='green', alpha=0.75)
-numBins = #number of evenly sized bins for histogram
+numBins = 100#number of evenly sized bins for histogram
 plt.hist(Unkown2, numBins, normed=1, facecolor='green', alpha=0.75)
-
+plt.show()
 
 '''
 1. What is the type of random variable Unkown1?

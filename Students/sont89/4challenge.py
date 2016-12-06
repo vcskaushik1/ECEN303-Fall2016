@@ -6,11 +6,11 @@ import pylab
 __author__ = "Rebecca Sontheimer"  # EDIT
 __NetID__ = "sont89"  # EDIT
 __GitHubID__ = "sont89"  # EDIT
-__SelfGrade__ = ""  # EDIT
+__SelfGrade__ = "4/5"  # EDIT
 __Answer1__ = "Gaussian"
-__Answer2__ = ""
-__Answer3__ = ""
-__Answer4__ = ""
+__Answer2__ = "1, 1"
+__Answer3__ = "Gaussian"
+__Answer4__ = "1, 1"
 __Challenge__ = "4"
 
 TrialNumber = 10000

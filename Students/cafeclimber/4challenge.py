@@ -1,16 +1,18 @@
 import random
 import math
-import numpy
+import numpy as np
 import pylab
 
-__author__ = ""  # EDIT
-__NetID__ = ""  # EDIT
-__GitHubID__ = ""  # EDIT
+import matplotlib.pyplot as plt
+
+__author__ = "Ryan Campbell"  # EDIT
+__NetID__ = "317008605"  # EDIT
+__GitHubID__ = "cafeclimber"  # EDIT
 __SelfGrade__ = ""  # EDIT
-__Answer1__ = ""
-__Answer2__ = ""
-__Answer3__ = ""
-__Answer4__ = ""
+__Answer1__ = "Gaussian"
+__Answer2__ = "~0, ~1"
+__Answer3__ = "Gaussian"
+__Answer4__ = "~0, ~1"
 __Challenge__ = "4"
 
 TrialNumber = 10000
@@ -18,39 +20,58 @@ Uvariable = []
 for trial in range(0, TrialNumber):
 	Uvariable.append(random.random())
 
-numBins = #number of evenly sized bins for histogram
+numBins = 50
 plt.hist(Uvariable, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.show()
 
+def g(x):
+        return -1.0 * math.log(1.0 - x)
 
+Vvariable = []
 #Make sure to define the function 'g'
 for trial in range(0, len(Uvariable)):
 	Vvariable.append(g(Uvariable[trial]))
 
-numBins = #number of evenly sized bins for histogram
+numBins = 50
 plt.hist(Vvariable, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.show()
 
+def h(x):
+        return np.sqrt(-2 * np.log(1 - x))
+
+Wvariable = []
 #Make sure to define the function 'h'
 for trial in range(0, len(Uvariable)):
 	Wvariable.append(h(Uvariable[trial]))
 
-
-numBins = #number of evenly sized bins for histogram
+numBins = 50
 plt.hist(Wvariable, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.show()
 
 
-Uknown1 = []
-Uknown2 = []
+Unknown1 = []
+Unknown2 = []
 for trial in range(0, TrialNumber):
     Uvariable1 = random.random()
     Uvariable2 = random.random()
-    Unkown1.append(math.sqrt(- 2 * math.ln(Uvariable1) * math.cos(2 * math.PI * Uvariable2)))
-    Unkown2.append(math.sqrt(- 2 * math.ln(Uvariable1) * math.cos(2 * math.PI * Uvariable2)))
+    Unknown1.append(math.sqrt(-2.0 * math.log(Uvariable1)) * math.cos(2.0 * math.pi * Uvariable2))
+    Unknown2.append(math.sqrt(-2.0 * math.log(Uvariable1)) * math.cos(2.0 * math.pi * Uvariable2))
 
 
-numBins = #number of evenly sized bins for histogram
-plt.hist(Unkown1, numBins, normed=1, facecolor='green', alpha=0.75)
-numBins = #number of evenly sized bins for histogram
-plt.hist(Unkown2, numBins, normed=1, facecolor='green', alpha=0.75)
+numBins = 100
+plt.hist(Unknown1, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.title("Unknown1")
+print("Unknown1 mean: %f" % np.mean(Unknown1))
+print("Unknown1 variance: %f" % np.var(Unknown1))
+plt.show()
+
+numBins = 100
+plt.hist(Unknown2, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.title("Unknown2")
+print("Unknown2 mean: %f" % np.mean(Unknown2))
+print("Unknown2 variance: %f" % np.var(Unknown2))
+plt.show()
+
 
 
 '''

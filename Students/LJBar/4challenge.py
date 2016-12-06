@@ -6,11 +6,11 @@ import pylab
 __author__ = "" Lucky Jay Barut
 __NetID__ = ""  lazerjay95
 __GitHubID__ = ""  LJBar
-__SelfGrade__ = ""  # EDIT
+__SelfGrade__ = "4.75"  
 __Answer1__ = "Gaussian"
-__Answer2__ = ""
+__Answer2__ = "1 on both"
 __Answer3__ = "Gaussian"
-__Answer4__ = ""
+__Answer4__ = "1 on both "
 __Challenge__ = "4"
 
 TrialNumber = 10000

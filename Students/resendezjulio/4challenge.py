@@ -71,9 +71,4 @@ plt.hist(Unkown2, numBins, normed=1, facecolor='green', alpha=0.75)
 plt.show()
 
 
-'''
-1. What is the type of random variable Unkown1? #Answered above
-2. What is its mean and variance?
-3. What is the type of random variable Unkown2?
-4. What is its mean and variance?
-'''
+

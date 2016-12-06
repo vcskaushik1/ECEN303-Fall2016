@@ -10,9 +10,9 @@ __NetID__ = "josbo757"
 __GitHubID__ = "josbo757"
 __SelfGrade__ = "5"
 __Answer1__ = "Gaussian"
-__Answer2__ = "1 & 1"
+__Answer2__ = "Mean 1 & Var 0.365"
 __Answer3__ = "Gaussian"
-__Answer4__ = "1 & 1"
+__Answer4__ = "Mean 1 & Var 0.35"
 __Challenge__ = "4"
 
 TrialNumber = 10000

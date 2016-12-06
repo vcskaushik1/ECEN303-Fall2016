@@ -1,10 +1,3 @@
-import random
-import math
-import matplotlib.pyplot as plt
-import numpy
-import statistics
-import pylab
-
 __author__ = "Trevor Spohrer"
 __NetID__ = "tspohrer"
 __GitHubID__ = "tspohrer"
@@ -14,6 +7,13 @@ __Answer2__ = "Mean=1 & Variance=0.365"
 __Answer3__ = "Gaussian"
 __Answer4__ = "Mean=1 & Variance=0.35"
 __Challenge__ = "4"
+
+import random
+import math
+import matplotlib.pyplot as plt
+import numpy
+import statistics
+import pylab
 
 TrialNumber = 10000
 Uvariable = []

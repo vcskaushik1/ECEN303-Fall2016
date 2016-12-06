@@ -8,10 +8,10 @@ __author__ = "Jacob Geller"  # EDIT
 __NetID__ = "coby.geller"  # EDIT
 __GitHubID__ = "cobygeller"  # EDIT
 __SelfGrade__ = ""  # 
-__Answer1__ = "Gaussian, slightly shifted from the center"
-__Answer2__ = "Mean is -0.00072 and the Variance is 1.012 "
-__Answer3__ = "Gaussian as well"
-__Answer4__ = "mean is -0.024, Variance is 1.004 "
+__Answer1__ = "Gaussian, using cos to generate the RV"
+__Answer2__ = "Mean is -0.0005(0) and the Variance is 1.01(1) "
+__Answer3__ = "Gaussian, using sin to generate the RV"
+__Answer4__ = "mean is -0.009(0), Variance is 1.06(1) "
 __Challenge__ = "4"
 
 TrialNumber = 10000

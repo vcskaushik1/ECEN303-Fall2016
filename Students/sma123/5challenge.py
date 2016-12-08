@@ -4,9 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.mlab as mlab
 
-__author__ = ""  # EDIT
-__NetID__ = ""  # EDIT
-__GitHubID__ = ""  # EDIT
+__author__ = "Simmi Mani"  # EDIT
+__NetID__ = "simmi.mani123"  # EDIT
+__GitHubID__ = "sma123"  # EDIT
 __SelfGrade__ = ""  # EDIT
 __Challenge__ = "5"
 
@@ -155,11 +155,11 @@ plt.show() # LLN
 '''
 Answers:
 
-1.
+1. Guassian
 
-2.
+2. Guassian
 
-3.
+3. 
 
 4.
 

@@ -54,8 +54,8 @@ Unknown2 = []
 for trial in range(0, TrialNumber):
     Uvariable1 = random.random()
     Uvariable2 = random.random()
-    Unknown1.append(math.sqrt(-2.0 * math.log(Uvariable1)) * math.cos(2.0 * math.pi * Uvariable2))
-    Unknown2.append(math.sqrt(-2.0 * math.log(Uvariable1)) * math.cos(2.0 * math.pi * Uvariable2))
+    Unknown1.append(math.sqrt(- 2 * math.log(Uvariable1)) * math.cos(2 * math.pi * Uvariable2))
+    Unknown2.append(math.sqrt(- 2 * math.log(Uvariable1)) * math.sin(2 * math.pi * Uvariable2))
 
 
 numBins = 100

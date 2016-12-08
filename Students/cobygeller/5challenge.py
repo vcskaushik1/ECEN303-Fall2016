@@ -4,9 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.mlab as mlab
 
-__author__ = ""  # EDIT
-__NetID__ = ""  # EDIT
-__GitHubID__ = ""  # EDIT
+__author__ = "Jacob	Geller"  # EDIT
+__NetID__ = "coby.geller"  # EDIT
+__GitHubID__ = "cobygeller"  # EDIT
 __SelfGrade__ = ""  # EDIT
 __Challenge__ = "5"
 

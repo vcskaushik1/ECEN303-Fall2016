@@ -6,21 +6,21 @@ import pylab
 __author__ = "Julio Resendez"  
 __NetID__ = "resendezjulio"
 __GitHubID__ = "resendezjulio"  
-__SelfGrade__ = "4.0/5.0" #I believe I got most of this to compile # seperately
+__SelfGrade__ = "4.0/5.0" 
 __Answer1__ = "Gaussian"
-__Answer2__ = "Mean = 1.0, Variance =1"
-__Answer3__ = "Gaussian again"
+__Answer2__ = "Mean = 1.0, Variance = 1"
+__Answer3__ = "Gaussian"
 __Answer4__ = "Mean = 1.0, Variance = 1"
 __Challenge__ = "4"
  
 	
-TrialNumber = 10000
+TrialNumber = 1000
 Uvariable = []
 for trial in range(0, TrialNumber):
 	Uvariable.append(random.random())
 
 numBins = 100 # size of bins 
-plt.hist(Uvariable, numBins, normed=1, facecolor='green', alpha=0.75)
+plt.hist(Uvariable, numBins, normed = 1, facecolor= 'green', alpha=0.75)
 
 plt.show()
 
@@ -71,9 +71,4 @@ plt.hist(Unkown2, numBins, normed=1, facecolor='green', alpha=0.75)
 plt.show()
 
 
-'''
-1. What is the type of random variable Unkown1? #Answered above
-2. What is its mean and variance?
-3. What is the type of random variable Unkown2?
-4. What is its mean and variance?
-'''
+
